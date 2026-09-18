@@ -1,0 +1,251 @@
+{
+  "transport_default": "stdout_pipe",
+  "shared_memory": false,
+  "kind": "windows",
+  "sck_minimum": "12.3",
+  "permission": {
+    "preflight": true,
+    "hint": "System Settings → Privacy & Security → Screen Recording. This tool does not change permissions.",
+    "kind": "permission",
+    "requested_permission": false,
+    "macos_major": 27,
+    "macos": "Version 27.0 (Build 26A428)",
+    "sck_minimum": "12.3",
+    "status": "granted",
+    "sck_minimum_ok": true
+  },
+  "displays": 1,
+  "windows": [
+    {
+      "y": 1,
+      "width": 28,
+      "bundle": "",
+      "x": 2029,
+      "title": "StatusIndicator",
+      "on_screen": true,
+      "owner": "",
+      "height": 28,
+      "id": 12892
+    },
+    {
+      "title": "",
+      "bundle": "com.parallels.winapp.cf9f178b0ec04ceb9181d59548846cb0.VM",
+      "width": 2056,
+      "id": 13783,
+      "height": 39,
+      "owner": "Windows 11 Dock Helper",
+      "on_screen": false,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "bundle": "com.apple.WindowManager",
+      "x": 0,
+      "owner": "WindowManager",
+      "width": 2056,
+      "y": 0,
+      "height": 1329,
+      "on_screen": true,
+      "id": 13754,
+      "title": "Fullscreen Backdrop"
+    },
+    {
+      "y": 0,
+      "owner": "",
+      "id": 13752,
+      "width": 2056,
+      "on_screen": true,
+      "x": 0,
+      "title": "Menubar",
+      "height": 39,
+      "bundle": ""
+    },
+    {
+      "owner": "Windows 11 Dock Helper",
+      "height": 39,
+      "bundle": "com.parallels.winapp.cf9f178b0ec04ceb9181d59548846cb0.VM",
+      "x": 0,
+      "y": 0,
+      "width": 2056,
+      "title": "",
+      "id": 13784,
+      "on_screen": false
+    },
+    {
+      "owner": "WindowManager",
+      "on_screen": true,
+      "height": 1329,
+      "title": "Wallpaper",
+      "id": 13750,
+      "x": 0,
+      "bundle": "com.apple.WindowManager",
+      "width": 2056,
+      "y": 0
+    },
+    {
+      "bundle": "com.parallels.desktop.console",
+      "x": 0,
+      "height": 54,
+      "owner": "Parallels Desktop",
+      "title": "",
+      "width": 2056,
+      "y": 1,
+      "id": 13747,
+      "on_screen": true
+    },
+    {
+      "width": 28,
+      "owner": "",
+      "x": 2029,
+      "id": 12893,
+      "title": "StatusIndicator",
+      "on_screen": true,
+      "y": 1,
+      "bundle": "",
+      "height": 28
+    },
+    {
+      "x": 0,
+      "bundle": "com.parallels.desktop.console",
+      "y": 39,
+      "title": "Windows 11",
+      "id": 13745,
+      "width": 2056,
+      "height": 1290,
+      "on_screen": true,
+      "owner": "Parallels Desktop"
+    },
+    {
+      "on_screen": false,
+      "y": 373,
+      "height": 508,
+      "owner": "Parallels Desktop",
+      "id": 6005,
+      "title": "",
+      "bundle": "com.parallels.desktop.console",
+      "width": 640,
+      "x": 708
+    },
+    {
+      "x": 0,
+      "height": 39,
+      "id": 13782,
+      "on_screen": false,
+      "y": 0,
+      "bundle": "com.parallels.winapp.cf9f178b0ec04ceb9181d59548846cb0.VM",
+      "title": "",
+      "owner": "Windows 11 Dock Helper",
+      "width": 2056
+    },
+    {
+      "y": 0,
+      "id": 13781,
+      "title": "",
+      "width": 2056,
+      "on_screen": false,
+      "bundle": "com.parallels.winapp.cf9f178b0ec04ceb9181d59548846cb0.VM",
+      "owner": "Windows 11 Dock Helper",
+      "height": 39,
+      "x": 0
+    },
+    {
+      "x": 0,
+      "owner": "Parallels Desktop",
+      "width": 2056,
+      "bundle": "com.parallels.desktop.console",
+      "height": 39,
+      "on_screen": false,
+      "title": "",
+      "y": 0,
+      "id": 6007
+    },
+    {
+      "title": "Display 1 Backstop",
+      "y": 0,
+      "id": 3,
+      "on_screen": true,
+      "width": 2056,
+      "bundle": "",
+      "height": 1329,
+      "owner": "",
+      "x": 0
+    },
+    {
+      "on_screen": false,
+      "bundle": "com.parallels.desktop.console",
+      "width": 64,
+      "owner": "Parallels Desktop",
+      "height": 64,
+      "x": 986,
+      "title": "",
+      "y": 664,
+      "id": 6012
+    },
+    {
+      "x": 0,
+      "owner": "Parallels Desktop",
+      "on_screen": false,
+      "title": "",
+      "width": 2056,
+      "height": 39,
+      "bundle": "com.parallels.desktop.console",
+      "y": 0,
+      "id": 6010
+    },
+    {
+      "y": 0,
+      "id": 6009,
+      "title": "",
+      "on_screen": false,
+      "bundle": "com.parallels.desktop.console",
+      "height": 39,
+      "owner": "Parallels Desktop",
+      "x": 0,
+      "width": 2056
+    },
+    {
+      "width": 2056,
+      "title": "",
+      "bundle": "com.parallels.desktop.console",
+      "on_screen": false,
+      "id": 6008,
+      "owner": "Parallels Desktop",
+      "height": 39,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "on_screen": false,
+      "width": 640,
+      "bundle": "com.parallels.desktop.console",
+      "height": 508,
+      "x": 708,
+      "y": 373,
+      "id": 6006,
+      "owner": "Parallels Desktop",
+      "title": ""
+    },
+    {
+      "title": "",
+      "x": 694,
+      "y": 593,
+      "on_screen": false,
+      "width": 668,
+      "bundle": "com.parallels.desktop.console",
+      "id": 6003,
+      "owner": "Parallels Desktop",
+      "height": 68
+    },
+    {
+      "on_screen": true,
+      "owner": "",
+      "x": 1226,
+      "bundle": "",
+      "title": "Cursor",
+      "height": 74,
+      "y": 816,
+      "width": 74,
+      "id": 2
+    }
+  ]
+}

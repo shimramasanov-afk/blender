@@ -1,0 +1,22 @@
+{
+  "hid_sent": false,
+  "focus": {
+    "backend": "nsworkspace",
+    "bundle_id": "com.todesktop.230313mzl4w4u92",
+    "pid": 68562,
+    "n": 80,
+    "warmup": 12,
+    "p50_ms": 0.004708,
+    "p95_ms": 0.0055,
+    "max_ms": 0.007292,
+    "osascript": false
+  },
+  "act_ms_p50": 0.015667,
+  "act_ms_p95": 0.018958,
+  "osascript": false,
+  "live_input": false,
+  "osascript_control_p50_ms": 175.937208,
+  "osascript_control_p95_ms": 183.892167,
+  "osascript_n": 8,
+  "note": "act_ms is RecordingPoster + native focus, not a second live HID run"
+}

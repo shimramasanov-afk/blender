@@ -1,0 +1,19 @@
+---
+description: Замороженное эвристическое L1. Не крутить скаляры baseline.
+globs: src/l2_brain/control/baseline.py,src/l2_brain/control/config.py,src/l2_brain/control/memory.py,docs/evidence/hod23/frozen-hod23.json
+alwaysApply: false
+---
+
+# Заморозка baseline_memory_v1 (ADR-0030)
+
+Калибровка эвристического L1 закрыта каноном **52/60** (`frozen-hod23.json`).
+
+Не менять коэффициенты, таймеры и пороги (`wrap`, `reslide`, `probe`, `course_lock`,
+детектор 0.12 и прочие скаляры) ради оставшихся 8 эпизодов. Не ветвить по имени
+сцены. Не перезаписывать F14/F15, post-h22 и `frozen-hod23.json`.
+
+Новая политика — отдельный пакет `src/l2_brain/control/snn/`, протокол
+`CircuitController`. Не править `controllers/snn.py` как замену этому ядру.
+Граф (`graphify`) не даёт права менять эти файлы.
+
+Забор: ADR-0028. Исключение: явный дефект протокола/краш, не «ещё 1–2 успеха».

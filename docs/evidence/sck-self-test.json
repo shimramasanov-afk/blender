@@ -1,0 +1,36 @@
+{
+  "suite": "sck-self-test",
+  "date": "2026-09-16",
+  "macos": "27.0 (26A428)",
+  "sck_minimum": "12.3",
+  "permission": {
+    "preflight": true,
+    "requested_permission": false,
+    "status": "granted"
+  },
+  "window": "L2BrainCaptureTest (self-test, not a game)",
+  "transport": "stdout_pipe",
+  "shared_memory": false,
+  "pixel_format": "rgb8",
+  "scale": 2,
+  "requested_fps": 20,
+  "requested_fps_is_not_a_guarantee": true,
+  "achieved_fps": 20.16,
+  "median_interval_ms": 49.609,
+  "ticks": 12,
+  "resizes": 2,
+  "bytes_total": 7303680,
+  "helper_copy_ms": 0.103,
+  "copies": {
+    "sck_gpu_to_cpu": "unknown_not_counted",
+    "helper_bgra_to_rgb": 1,
+    "pipe_write": 1,
+    "python_read": 1,
+    "ndarray_own": 1,
+    "total_counted": 4
+  },
+  "python_rss_bytes": 44138496,
+  "h7_30s_window": false,
+  "h7_status": "not_evaluated",
+  "limitation": "Short self-test window. Not a 30s H7 run. Not an MMORPG client."
+}

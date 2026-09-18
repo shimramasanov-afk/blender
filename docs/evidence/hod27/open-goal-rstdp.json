@@ -1,0 +1,105 @@
+{
+  "suite": "nav-sim-v1-mini",
+  "hypothesis": "Noisy snn_core_v1 with 8 R-STDP episodes then freeze uses fewer ticks than the frozen noisy copy. Not Frozen 60. Not H3/H4.",
+  "reject_if": "Eval ticks >= control ticks, NaN, crash, or Observation received GroundTruth.",
+  "n_runs": 1,
+  "why_one_run": "Hod 27 mini-set: one scene, one noise seed. Not a multi-seed claim.",
+  "learned": true,
+  "transfer_claim": false,
+  "biological_claim": false,
+  "control": {
+    "episode_id": "open_goal:training:v0:s0",
+    "success": true,
+    "ticks": 59,
+    "collisions": 0,
+    "reward_sum": 0.7167933171896792,
+    "learned": false,
+    "privileged_in_observation": false
+  },
+  "train": [
+    {
+      "episode_id": "open_goal:training:v0:s0",
+      "success": true,
+      "ticks": 59,
+      "collisions": 0,
+      "reward_sum": 0.7167933171896792,
+      "learned": true,
+      "privileged_in_observation": false
+    },
+    {
+      "episode_id": "open_goal:training:v0:s0",
+      "success": true,
+      "ticks": 59,
+      "collisions": 0,
+      "reward_sum": 0.73890227602144,
+      "learned": true,
+      "privileged_in_observation": false
+    },
+    {
+      "episode_id": "open_goal:training:v0:s0",
+      "success": true,
+      "ticks": 59,
+      "collisions": 0,
+      "reward_sum": 2.5108183477275814,
+      "learned": true,
+      "privileged_in_observation": false
+    },
+    {
+      "episode_id": "open_goal:training:v0:s0",
+      "success": true,
+      "ticks": 60,
+      "collisions": 0,
+      "reward_sum": 6.66111113182005,
+      "learned": true,
+      "privileged_in_observation": false
+    },
+    {
+      "episode_id": "open_goal:training:v0:s0",
+      "success": true,
+      "ticks": 58,
+      "collisions": 0,
+      "reward_sum": 9.76592502836147,
+      "learned": true,
+      "privileged_in_observation": false
+    },
+    {
+      "episode_id": "open_goal:training:v0:s0",
+      "success": true,
+      "ticks": 58,
+      "collisions": 0,
+      "reward_sum": 7.424324872806675,
+      "learned": true,
+      "privileged_in_observation": false
+    },
+    {
+      "episode_id": "open_goal:training:v0:s0",
+      "success": true,
+      "ticks": 59,
+      "collisions": 0,
+      "reward_sum": 8.236825376448946,
+      "learned": true,
+      "privileged_in_observation": false
+    },
+    {
+      "episode_id": "open_goal:training:v0:s0",
+      "success": true,
+      "ticks": 58,
+      "collisions": 0,
+      "reward_sum": 10.783628061209228,
+      "learned": true,
+      "privileged_in_observation": false
+    }
+  ],
+  "eval_frozen": {
+    "episode_id": "open_goal:training:v0:s0",
+    "success": true,
+    "ticks": 58,
+    "collisions": 0,
+    "reward_sum": 0.7241797520699276,
+    "learned": false,
+    "privileged_in_observation": false
+  },
+  "w_in_norm_after": 17.359810802037202,
+  "last_delta": 0.0,
+  "improved": true
+}

@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "live": true,
+  "aborted": null,
+  "window_id": 16372,
+  "target_pid": 68342,
+  "rotation_type": "keyboard_arrow",
+  "yaw_shift_px": -29.062368540187784,
+  "yaw_shift_dy_px": 50.009195168502195,
+  "yaw_peak": 0.047081548678664265,
+  "deg_per_sec": -1.0601544944134649,
+  "step_shift_px": null,
+  "step_shift_dx_px": null,
+  "step_shift_dy_px": null,
+  "step_scale": null,
+  "step_peak": null,
+  "step_px_per_sec": null,
+  "motion_detected": true,
+  "fov_h_deg_assumed": 75.0,
+  "yaw_from_assumed_fov": true,
+  "h8_closed": false,
+  "q5_gt_yaw": false,
+  "hid_sent": true,
+  "stuck_keys_count": 0,
+  "watchdog_tripped": false,
+  "ticks": 2,
+  "session_ms": 1231.697333,
+  "steps": [
+    {
+      "step": "capture_start",
+      "t_ms": 252.306833,
+      "crop_band": "horizon",
+      "crop": null,
+      "crop_y": [
+        0.15,
+        0.3
+      ],
+      "crop_x": [
+        0.25,
+        0.75
+      ],
+      "hold_ms": 500,
+      "fov_h_deg_assumed": 75.0
+    },
+    {
+      "step": "I0",
+      "t_ms": 282.077,
+      "shape": [
+        387,
+        2056
+      ],
+      "frame_w": 4112,
+      "crop_band": "horizon"
+    },
+    {
+      "step": "right_arrow",
+      "t_ms": 957.897791,
+      "duration_ms": 500
+    },
+    {
+      "step": "I1",
+      "t_ms": 1231.604125,
+      "yaw_shift_px": -29.062368540187784,
+      "yaw_shift_dy_px": 50.009195168502195,
+      "peak": 0.047081548678664265,
+      "deg_per_sec": -1.0601544944134649,
+      "peak_reliable": false
+    },
+    {
+      "step": "done",
+      "t_ms": 1231.645708,
+      "motion_detected": true,
+      "peak_reliable": false
+    }
+  ],
+  "events": [
+    {
+      "timestamp_ns": 353168958966583,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 500,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 353169634649958,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 353169908493708,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    }
+  ],
+  "farm": false,
+  "transfer_claim": false,
+  "crop_band": "horizon",
+  "crop_y": [
+    0.15,
+    0.3
+  ],
+  "crop_x": [
+    0.25,
+    0.75
+  ],
+  "peak_threshold": 0.15,
+  "peak_reliable": false,
+  "q5_horizon_ok": false,
+  "q5_closed": false,
+  "motion": {
+    "rotation_backend": "keyboard_arrow",
+    "arrow_right_keycode": 124,
+    "arrow_left_keycode": 123,
+    "yaw_rate_deg_per_sec": -1.0601544944134649,
+    "step_px_per_sec": 0.0,
+    "turn_90_duration_ms": null,
+    "fov_h_deg_assumed": 75.0,
+    "yaw_from_assumed_fov": true,
+    "hold_ms": 500,
+    "yaw_shift_px": -29.062368540187784,
+    "yaw_peak": 0.047081548678664265,
+    "step_peak": 0.0,
+    "crop_band": "horizon",
+    "crop_y": [
+      0.15,
+      0.3
+    ],
+    "crop_x": [
+      0.25,
+      0.75
+    ],
+    "peak_threshold": 0.15,
+    "peak_reliable": false,
+    "confidence": "unreliable",
+    "h8_closed": false,
+    "q5_gt_yaw": false
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "ok": true,
+  "hid_sent": false,
+  "window_id": 13944,
+  "window_title": "Windows 11",
+  "width": 4112,
+  "height": 2580,
+  "mean_luma": 60.18449599835108,
+  "profile": "config/window_profiles/parallels_l2.json",
+  "reference": "docs/evidence/live-s4/interlude-target-active.png",
+  "overlay": "docs/evidence/live-s4/hud-overlay-interlude.png",
+  "roi": {
+    "self_bars": {
+      "norm_rect": [
+        0.01,
+        0.02,
+        0.2,
+        0.08
+      ],
+      "pixel_box": [
+        41,
+        51,
+        863,
+        257
+      ]
+    },
+    "self_cp": {
+      "norm_rect": [
+        0.055,
+        0.022,
+        0.145,
+        0.022
+      ],
+      "pixel_box": [
+        226,
+        56,
+        822,
+        112
+      ]
+    },
+    "self_hp": {
+      "norm_rect": [
+        0.055,
+        0.046,
+        0.145,
+        0.022
+      ],
+      "pixel_box": [
+        226,
+        118,
+        822,
+        174
+      ]
+    },
+    "self_mp": {
+      "norm_rect": [
+        0.055,
+        0.07,
+        0.145,
+        0.022
+      ],
+      "pixel_box": [
+        226,
+        180,
+        822,
+        236
+      ]
+    },
+    "target_frame": {
+      "norm_rect": [
+        0.4,
+        0.02,
+        0.2,
+        0.08
+      ],
+      "pixel_box": [
+        1644,
+        51,
+        2466,
+        257
+      ]
+    },
+    "target_hp": {
+      "norm_rect": [
+        0.42,
+        0.055,
+        0.16,
+        0.025
+      ],
+      "pixel_box": [
+        1727,
+        141,
+        2384,
+        205
+      ]
+    }
+  },
+  "roi_source": "profile",
+  "tag": "interlude_active",
+  "space_switch_host_only": 1
+}

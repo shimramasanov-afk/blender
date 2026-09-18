@@ -1,0 +1,8006 @@
+{
+  "ok": true,
+  "s4_open": true,
+  "spot_series": true,
+  "integrated": true,
+  "farm": false,
+  "no_heal": true,
+  "heal_sent": false,
+  "live": true,
+  "hid_sent": true,
+  "aborted": null,
+  "window_id": 18733,
+  "target_pid": 68342,
+  "timeout_s": null,
+  "total_kills": 3,
+  "kills_completed": 3,
+  "roam_cycles": 4,
+  "l1_stuck_triggers": 3,
+  "l1_triggers": 3,
+  "aggro_interrupts": 2,
+  "aggro_triggers": 2,
+  "u_turns_executed": 1,
+  "u_turns": 1,
+  "elapsed_time_sec": 113.024909584,
+  "total_time_sec": 113.024909584,
+  "avg_combat_duration_sec": 2.1684614026666664,
+  "avg_combat_sec": 2.1684614026666664,
+  "stuck_keys": 0,
+  "frags": [
+    {
+      "kill": 1,
+      "search_ms": 11493.86725,
+      "combat_ms": 262.32425,
+      "loot_ms": 3308.313084,
+      "roam_cycles": 0,
+      "l1_triggers": 0,
+      "initial_hp": 1.0,
+      "final_hp": 0.0
+    },
+    {
+      "kill": 2,
+      "search_ms": 2968.588458,
+      "combat_ms": 0.032083,
+      "loot_ms": 3338.167208,
+      "roam_cycles": 0,
+      "l1_triggers": 0,
+      "initial_hp": 0.0,
+      "final_hp": 0.0
+    },
+    {
+      "kill": 3,
+      "search_ms": 75561.964167,
+      "combat_ms": 6243.027875,
+      "loot_ms": 3253.720167,
+      "roam_cycles": 4,
+      "l1_triggers": 1,
+      "initial_hp": 1.0,
+      "final_hp": 0.0
+    }
+  ],
+  "flow_samples": [
+    {
+      "t_ms": 559.079792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 866.888209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1174.858292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1489.635709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1796.29475,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2058.195125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2428.063875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2682.858125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3185.320334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3507.727334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3830.689834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 4142.330584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 4459.040875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 4779.235625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 5090.830917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 5407.662375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 5723.84025,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 6032.570459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 6342.137334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 6657.52525,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 6969.828834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7288.127834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7609.426125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7924.998167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8243.901334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8561.505667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8880.663459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 9204.865084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 9516.526375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 9822.282542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 10137.737625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 10445.905709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 10764.566084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 11023.777042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 11333.393959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 11587.730292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 11903.79475,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 12152.027,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 12463.699959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 12724.04775,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13033.57,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13290.2175,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13552.540167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13855.382084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14169.546,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14419.81375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14723.020459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 15038.667459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 15348.992959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 15661.008292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 15977.798292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 16287.924417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 16552.931084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 16860.847084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 17170.236125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 17487.991584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 17738.456459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 18046.301209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 18354.839584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 18657.308834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 18964.76925,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 19221.68075,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 19531.542209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 19840.789625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 20145.423542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 20456.584459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 20714.086792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21216.80875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21526.430625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21831.729917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22143.217459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22446.215084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22752.470125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 23057.301625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 23376.114125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 23696.963209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.24892830848693848
+    },
+    {
+      "t_ms": 24012.755042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07692307978868484
+    },
+    {
+      "t_ms": 24326.055542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 24646.442,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 24898.8605,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 25207.855709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 25517.846042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 25840.668875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 26156.25275,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07692307978868484
+    },
+    {
+      "t_ms": 26469.420542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 26786.26025,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27046.522667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27351.008792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27657.209042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27965.565042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 28215.746709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 28527.554584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 28843.622042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 29154.895084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 29465.894042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 29722.74075,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 30029.578792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 30337.992417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 30658.513167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 30967.747167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 31219.757709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 31711.116959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 32021.837334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 32332.4575,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 32644.532792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 32955.900959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33257.824625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33582.60725,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33893.916,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34205.183959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34517.882959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34820.605667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35139.855875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35437.932042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35752.613459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 36063.05425,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 36382.983167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 36700.59225,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 37007.965375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 37317.391459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 37587.301167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 37891.208084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38200.983875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38509.172792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38815.589917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39113.587459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10000000149011612
+    },
+    {
+      "t_ms": 39665.60425,
+      "expansion": 0.0,
+      "flow_magnitude": 0.12706387042999268
+    },
+    {
+      "t_ms": 39913.970584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40224.329209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40533.660417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40799.398167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41113.734959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41431.506417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.11496255546808243
+    },
+    {
+      "t_ms": 41694.508959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42011.741625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 42268.968375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42580.269834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42895.8725,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05882352963089943
+    },
+    {
+      "t_ms": 43152.169042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 43467.967084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 43728.441417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44036.386459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44358.248084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 44612.421459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44932.1025,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 45185.946834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45493.071625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45809.280709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 46067.516625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46323.783584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46637.307292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46946.36,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 47261.653625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 47577.277459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 47834.082042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 48138.739125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 48443.267792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 48755.043334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 49061.184667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 49308.590625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 49800.983459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50107.914417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50421.800459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50744.415167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 51048.287667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 51358.335459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 51670.128542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 51979.565375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 52284.356667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 52595.1185,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 52896.946792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 53203.901542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 53508.943125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 53822.237167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 54129.440792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 54438.882834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 54740.706292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 55048.143584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 55350.439459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 55610.154875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 55923.550709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56225.933417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56533.378375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56840.867584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57162.074209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57471.317459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57728.495834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58043.618167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58359.760084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58615.711709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58942.076084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59253.399,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59526.688375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59844.067667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60113.647375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60428.1865,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60752.009167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61016.068709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61338.138875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.1540984809398651
+    },
+    {
+      "t_ms": 61605.646584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61919.283167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 62243.828209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 62517.879042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.095238097012043
+    },
+    {
+      "t_ms": 62837.250625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 63105.716917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 63422.564667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 63733.992459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.094280906021595
+    },
+    {
+      "t_ms": 63996.546459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 64250.21225,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05882352963089943
+    },
+    {
+      "t_ms": 64558.642542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 64870.363167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 65194.654667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 65514.553667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 65778.580917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 66096.84975,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 66407.5065,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 66724.063292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 67031.7025,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 67288.624625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 67776.947,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 68086.833875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 68400.003834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 68704.647959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 69040.346292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 69344.022625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 69644.221959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 69945.990959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 70254.80225,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 70579.9785,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 70890.71475,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0416666679084301
+    },
+    {
+      "t_ms": 71195.824125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 71504.096709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 71812.336917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 72117.077834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 72431.470709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 72730.162584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73038.221792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73343.200667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73595.357292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73904.763,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74203.654584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74509.547,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74815.456375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75121.687459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75425.406375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75674.142834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75982.147084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10526315867900848
+    },
+    {
+      "t_ms": 76296.552959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 76548.834834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 76863.176709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 77172.500625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77424.79275,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 77730.319334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.06734350323677063
+    },
+    {
+      "t_ms": 77977.47175,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78276.751917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78586.668459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 78834.7395,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 79140.601709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.17969545722007751
+    },
+    {
+      "t_ms": 79383.467084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 79684.597917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 80000.049709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 80258.506792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.095238097012043
+    },
+    {
+      "t_ms": 80595.773292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.17071068286895752
+    },
+    {
+      "t_ms": 80853.173542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0833333358168602
+    },
+    {
+      "t_ms": 81173.092,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 81487.784334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07856741547584534
+    },
+    {
+      "t_ms": 81748.178625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.2380952388048172
+    },
+    {
+      "t_ms": 81992.501667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.29089266061782837
+    },
+    {
+      "t_ms": 82310.603292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 82622.308709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 82932.987959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83246.57175,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10526315867900848
+    },
+    {
+      "t_ms": 83567.468625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10000000149011612
+    },
+    {
+      "t_ms": 83879.066542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 84190.999042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0555555559694767
+    },
+    {
+      "t_ms": 84506.547459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 84826.768625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 85138.29825,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 85409.942292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 85716.578667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 86030.056917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 86347.257209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 86652.948459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 86915.666417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 87224.52525,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 87531.824292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 87837.353334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 88147.894709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 88407.200792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 88901.344792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89202.906417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89513.552584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89816.987667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90129.169834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90460.220417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90776.454,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91091.401792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91408.282,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91726.425792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92027.895709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92342.855709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.043478261679410934
+    },
+    {
+      "t_ms": 92661.260542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92979.787167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 93293.271042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 93606.889917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 93914.092584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 94218.832584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 94474.181417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 94795.286375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 95111.622209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 95425.83375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 95743.2145,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 96061.367917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0707106739282608
+    },
+    {
+      "t_ms": 96367.213625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 96628.554584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 96943.552209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 97249.318125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.09090909361839294
+    },
+    {
+      "t_ms": 97500.442334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 97805.166209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 98114.785375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 98375.193834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 98681.810584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07856741547584534
+    },
+    {
+      "t_ms": 98936.144709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 99232.677459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 99540.777375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 99797.747334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 100109.378834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 100352.342667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 100682.668917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 100990.206792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 101241.244875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.06428243219852448
+    },
+    {
+      "t_ms": 101553.280625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 101799.665917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 102103.496834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 102410.1755,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 102669.755209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 102923.468584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 103220.503834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 103527.495792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 103770.965084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 104262.8155,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 104564.529334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 104872.800375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 105180.245,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 105491.281375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 105798.523334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 106111.524875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 106420.325542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 106721.825917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 107026.153917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 107326.039125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 107574.636792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 107873.817209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 108126.675417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 108447.1445,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 108692.377167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 108990.88875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 109232.460459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 109529.218209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 109770.520667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 110074.596959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 110377.915875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 110647.245459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 110956.548667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 111266.511125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 111579.56525,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 111876.409209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 112179.370875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.13636364042758942
+    },
+    {
+      "t_ms": 112476.843209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 112720.31275,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 113024.272584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    }
+  ],
+  "hotbar": {
+    "F1": "/targetnext",
+    "F2": "Attack",
+    "F3": "Pickup"
+  },
+  "rotation_type": "keyboard_arrow",
+  "walk": true,
+  "target_locked": false,
+  "target_killed": true,
+  "entity_defeated": true,
+  "loot_pickup_sent": true,
+  "loot_actions_sent": 21,
+  "f1_pulses": 14,
+  "f2_pulses": 18,
+  "stuck_keys_count": 0,
+  "watchdog_tripped": false,
+  "ticks": 116,
+  "session_ms": 113024.909584,
+  "steps": [
+    {
+      "step": "integrated_start",
+      "t_ms": 293.941584,
+      "cap": 3,
+      "session_s": null,
+      "farm": false,
+      "walk_ms": 450,
+      "peel_ms": 350,
+      "roam_fail_limit": 15,
+      "self_hp_abort": 0.1
+    },
+    {
+      "step": "self_bars_ok",
+      "t_ms": 1796.313917,
+      "self_hp": 1.0
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 1796.402625,
+      "cycle": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 2117.862584,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "locked",
+      "t_ms": 2428.099792,
+      "cycle": 1,
+      "target_hp": 1.0,
+      "attempt": 1
+    },
+    {
+      "step": "COMBAT",
+      "t_ms": 2428.18625,
+      "cycle": 1,
+      "target_hp": 1.0
+    },
+    {
+      "step": "l1_stuck",
+      "t_ms": 6032.692084,
+      "cycle": 1,
+      "reason": "static_no_damage",
+      "expansion": 0.0,
+      "flow_magnitude": 0.0,
+      "trigger": 1
+    },
+    {
+      "step": "l1_peel",
+      "t_ms": 6032.721584,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 350,
+      "cycle": 1
+    },
+    {
+      "step": "l1_stuck",
+      "t_ms": 8244.59625,
+      "cycle": 1,
+      "reason": "static_no_damage",
+      "expansion": 0.0,
+      "flow_magnitude": 0.0,
+      "trigger": 2
+    },
+    {
+      "step": "l1_peel",
+      "t_ms": 8244.668709,
+      "hid_sent": true,
+      "key": "left_arrow",
+      "duration_ms": 350,
+      "cycle": 1
+    },
+    {
+      "step": "Escape",
+      "t_ms": 11333.433875,
+      "hid_sent": true,
+      "cycle": 1,
+      "reason": "aggro"
+    },
+    {
+      "step": "F1",
+      "t_ms": 11587.856584,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "aggro"
+    },
+    {
+      "step": "aggro_lock",
+      "t_ms": 11903.816334,
+      "cycle": 1,
+      "target_hp": 1.0,
+      "interrupt": 1
+    },
+    {
+      "step": "F2",
+      "t_ms": 12152.220375,
+      "hid_sent": true,
+      "pulse": 3
+    },
+    {
+      "step": "F2",
+      "t_ms": 12724.166834,
+      "hid_sent": true,
+      "pulse": 4
+    },
+    {
+      "step": "COMBAT",
+      "t_ms": 13290.239167,
+      "cycle": 1,
+      "target_hp": 1.0,
+      "from_aggro": true
+    },
+    {
+      "step": "target_dead",
+      "t_ms": 13552.564667,
+      "cycle": 1,
+      "target_hp": 0.0,
+      "time_to_kill_ms": 262.2955
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 13552.593417,
+      "cycle": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 15661.117125,
+      "hid_sent": true,
+      "cycle": 1,
+      "tap": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 15661.144375,
+      "hid_sent": true,
+      "cycle": 1,
+      "tap": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 15661.150542,
+      "hid_sent": true,
+      "cycle": 1,
+      "tap": 3
+    },
+    {
+      "step": "frag",
+      "t_ms": 16860.908084,
+      "cycle": 1,
+      "kills_completed": 1,
+      "combat_ms": 262.32425
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 17488.0145,
+      "cycle": 2
+    },
+    {
+      "step": "F1",
+      "t_ms": 17738.558375,
+      "hid_sent": true,
+      "cycle": 2,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 19221.789959,
+      "hid_sent": true,
+      "cycle": 2,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "blind_engage",
+      "t_ms": 20456.602667,
+      "cycle": 2
+    },
+    {
+      "step": "target_dead",
+      "t_ms": 24012.787834,
+      "cycle": 2,
+      "target_hp": 0.0,
+      "via": "blind_engage"
+    },
+    {
+      "step": "COMBAT",
+      "t_ms": 24012.843125,
+      "cycle": 2,
+      "target_hp": 0.0,
+      "via": "blind_engage"
+    },
+    {
+      "step": "target_dead",
+      "t_ms": 24012.866834,
+      "cycle": 2,
+      "target_hp": 0.0,
+      "time_to_kill_ms": 0.024042
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 24012.874959,
+      "cycle": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 26156.657917,
+      "hid_sent": true,
+      "cycle": 2,
+      "tap": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 26156.695625,
+      "hid_sent": true,
+      "cycle": 2,
+      "tap": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 26156.703542,
+      "hid_sent": true,
+      "cycle": 2,
+      "tap": 3
+    },
+    {
+      "step": "frag",
+      "t_ms": 27351.043167,
+      "cycle": 2,
+      "kills_completed": 2,
+      "combat_ms": 0.032083
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 27965.586792,
+      "cycle": 3
+    },
+    {
+      "step": "F1",
+      "t_ms": 28215.866584,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 29722.847417,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "blind_engage",
+      "t_ms": 30967.768709,
+      "cycle": 3
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 36700.635417,
+      "cycle": 3,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 38815.68825,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 1,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 38815.716792,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 2,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 38815.72475,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 3,
+      "via": "after_f2"
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 39665.626792,
+      "cycle": 3,
+      "failed_search": 1
+    },
+    {
+      "step": "arrow",
+      "t_ms": 40534.045,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 41434.642334,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 42899.24925,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 44358.482334,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 45809.624792,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 46067.542667,
+      "cycle": 3
+    },
+    {
+      "step": "F1",
+      "t_ms": 46323.898042,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 47834.185,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "blind_engage",
+      "t_ms": 49061.205084,
+      "cycle": 3
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 54740.751417,
+      "cycle": 3,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 56841.002459,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 1,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 56841.053709,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 2,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 56841.06725,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 3,
+      "via": "after_f2"
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 57471.337,
+      "cycle": 3,
+      "failed_search": 2
+    },
+    {
+      "step": "arrow",
+      "t_ms": 58359.893125,
+      "hid_sent": true,
+      "key": "left_arrow",
+      "duration_ms": 450,
+      "cycle": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 59253.752667,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 60752.385042,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 62243.950667,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 63734.086,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 63996.565625,
+      "cycle": 3
+    },
+    {
+      "step": "F1",
+      "t_ms": 64250.35025,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 65779.354334,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "blind_engage",
+      "t_ms": 67031.726125,
+      "cycle": 3
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 72730.195,
+      "cycle": 3,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 74815.555667,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 1,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 74815.582917,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 2,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 74815.589084,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 3,
+      "via": "after_f2"
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 75425.427792,
+      "cycle": 3,
+      "failed_search": 3
+    },
+    {
+      "step": "arrow",
+      "t_ms": 76296.892459,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 77172.665375,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 78586.776334,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 80000.305625,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 81487.977875,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 4
+    },
+    {
+      "step": "u_turn",
+      "t_ms": 81748.203792,
+      "cycle": 3,
+      "roam_cycles": 3
+    },
+    {
+      "step": "u_turn_done",
+      "t_ms": 85138.398167,
+      "cycle": 3,
+      "u_turns": 1
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 85138.429125,
+      "cycle": 3
+    },
+    {
+      "step": "F1",
+      "t_ms": 85410.050834,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 86915.797875,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "blind_engage",
+      "t_ms": 88147.915417,
+      "cycle": 3
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 93606.925167,
+      "cycle": 3,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 95743.328042,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 1,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 95743.360292,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 2,
+      "via": "after_f2"
+    },
+    {
+      "step": "F3",
+      "t_ms": 95743.366375,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 3,
+      "via": "after_f2"
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 96367.233667,
+      "cycle": 3,
+      "failed_search": 1
+    },
+    {
+      "step": "arrow",
+      "t_ms": 97249.626459,
+      "hid_sent": true,
+      "key": "left_arrow",
+      "duration_ms": 450,
+      "cycle": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 98115.055875,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 99541.020334,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 100990.316417,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 102410.569417,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 102669.781625,
+      "cycle": 3
+    },
+    {
+      "step": "F1",
+      "t_ms": 102923.879667,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "locked",
+      "t_ms": 103527.51675,
+      "cycle": 3,
+      "target_hp": 1.0,
+      "attempt": 1
+    },
+    {
+      "step": "COMBAT",
+      "t_ms": 103527.550875,
+      "cycle": 3,
+      "target_hp": 1.0
+    },
+    {
+      "step": "l1_stuck",
+      "t_ms": 107026.565625,
+      "cycle": 3,
+      "reason": "static_no_damage",
+      "expansion": 0.0,
+      "flow_magnitude": 0.0,
+      "trigger": 3
+    },
+    {
+      "step": "l1_peel",
+      "t_ms": 107026.638584,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 350,
+      "cycle": 3
+    },
+    {
+      "step": "Escape",
+      "t_ms": 107873.86425,
+      "hid_sent": true,
+      "cycle": 3,
+      "reason": "aggro"
+    },
+    {
+      "step": "F1",
+      "t_ms": 108126.804709,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "aggro"
+    },
+    {
+      "step": "aggro_lock",
+      "t_ms": 108447.18075,
+      "cycle": 3,
+      "target_hp": 1.0,
+      "interrupt": 2
+    },
+    {
+      "step": "F2",
+      "t_ms": 108692.772209,
+      "hid_sent": true,
+      "pulse": 17
+    },
+    {
+      "step": "F2",
+      "t_ms": 109232.764542,
+      "hid_sent": true,
+      "pulse": 18
+    },
+    {
+      "step": "target_dead",
+      "t_ms": 109770.542834,
+      "cycle": 3,
+      "target_hp": 0.0,
+      "time_to_kill_ms": 6242.991417,
+      "from_aggro": true
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 109770.579167,
+      "cycle": 3
+    },
+    {
+      "step": "F3",
+      "t_ms": 111876.940459,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 111877.05725,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 111877.072209,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 3
+    },
+    {
+      "step": "frag",
+      "t_ms": 113024.300042,
+      "cycle": 3,
+      "kills_completed": 3,
+      "combat_ms": 6243.027875
+    },
+    {
+      "step": "SUCCESS",
+      "t_ms": 113024.328834,
+      "kills_completed": 3,
+      "roam_cycles": 4,
+      "farm": false,
+      "aggro_interrupts": 2,
+      "l1_triggers": 3,
+      "u_turns_executed": 1
+    }
+  ],
+  "events": [
+    {
+      "timestamp_ns": 375234144335208,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375234203937416,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375234768981958,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375234950541416,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375238118686833,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 350,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375238118753916,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375240330037083,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 350,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375240330550375,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375242850697666,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375242850710000,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375243109900208,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375243109980250,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375243419518333,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375243673855791,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375243673944583,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375244238144000,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375244238309000,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375244810166041,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375244810255875,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375246505929291,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375247124783708,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375247747119833,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375247747205916,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375248639068833,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375248639147416,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375248946985666,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375249824569666,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375249824647041,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375251307794583,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375251307879041,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375252800206000,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375252986395208,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375256098873166,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375256984981166,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375257603961208,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375258242370375,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375258242742208,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375259132638541,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375259132700833,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375259437126166,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375260301865541,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375260301953166,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375261808855625,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375261808936333,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375263305871666,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375263489412041,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375266603995583,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 350,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375266604142208,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375268786716875,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375269673417166,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375270287095291,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375270901699750,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375270901775916,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375272000093333,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375272619773333,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375272620129208,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375272885516208,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375273517622291,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375273520730708,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375274355084583,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375274981988583,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375274985335583,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375275814564125,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375276444365625,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375276444568708,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375277272060833,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375277895392833,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375277895713333,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375278409902875,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375278409987250,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375279920197375,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375279920273833,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375281394704750,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375281579649875,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375284681238333,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 350,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375284681326041,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375286826834166,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375287696270458,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375288312044166,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375288926989500,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375288927085750,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375289814620500,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375290445881291,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375290445979375,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375290701835333,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375291339515458,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375291339841000,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375292199770083,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375292838122583,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375292838472791,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375293691765041,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375294329944041,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375294330037875,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375295191840416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375295820106583,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375295820175041,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375296336334583,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375296336438333,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375297864700291,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375297865438041,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375299374771166,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375299561065125,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375302666104958,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 350,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375302666202750,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375304816281500,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375305681471875,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375306289770041,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375306901567625,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375306901644500,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375307760266500,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375308382669250,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375308382979708,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375308634953708,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375309258621500,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375309258754750,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375310063591416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375310672780541,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375310672865750,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375311469583083,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375312086161583,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375312086395041,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375312939290875,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375313573896541,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375313574065083,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375314078623583,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375314708424291,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375314708507500,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375315332687583,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375315332762416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 500,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375315965177708,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375315965450791,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 500,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375316592673833,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375316593229833,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 500,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375317224411208,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375317224486125,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375317496058208,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375317496140083,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375319001789375,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375319001884750,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375320493324750,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375320680463625,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375323812544541,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 350,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375323812865833,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375325693010750,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375326560298625,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375327197734791,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375327829326916,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375327829416625,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375328714677708,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375329335429958,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375329335713791,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375329586558291,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375330200907625,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375330201139875,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375331022286000,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375331626890291,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375331627107916,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375332438461500,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375333076326541,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375333076403125,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375333885782625,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375334496287458,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375334496654000,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375335009583958,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375335009965916,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375335857081291,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375336042194583,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375339112272375,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 350,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375339112534750,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375339412167500,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375339412176625,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375339660751791,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375339664514958,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375339959946291,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375340212799208,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375340212891791,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375340778492708,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375340778860875,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375341318574750,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375341318850208,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375342733358916,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375343352623875,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375343962520208,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375343963028666,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375344806427708,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375344807324250,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 375345110386458,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 375345110621833,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    }
+  ],
+  "runtime_validation": true,
+  "architecture": "LiveRuntime",
+  "runtime_used": true,
+  "validation_id": "R2",
+  "max_kills": 3,
+  "skill_trace": [
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "engaged",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "l1_peel",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 350,
+        "burst": 1,
+        "target_hp": 1.0
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "l1_peel",
+      "data": {
+        "key": "left_arrow",
+        "duration_ms": 350,
+        "burst": 2,
+        "target_hp": 1.0
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "aborted",
+      "reason": "aggro",
+      "data": {}
+    },
+    {
+      "skill": "close_dialog",
+      "status": "running",
+      "reason": "escape_sent",
+      "data": {}
+    },
+    {
+      "skill": "close_dialog",
+      "status": "success",
+      "reason": "dialog_closed_or_absent",
+      "data": {}
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "tap_hotkey",
+      "status": "success",
+      "reason": "tapped",
+      "data": {
+        "key": "F2",
+        "slot": 2
+      }
+    },
+    {
+      "skill": "tap_hotkey",
+      "status": "success",
+      "reason": "tapped",
+      "data": {
+        "key": "F2",
+        "slot": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "success",
+      "reason": "loot_input_sequence_completed",
+      "data": {
+        "taps": 3,
+        "inventory_confirmed": false
+      }
+    },
+    {
+      "skill": "close_dialog",
+      "status": "running",
+      "reason": "escape_sent",
+      "data": {}
+    },
+    {
+      "skill": "close_dialog",
+      "status": "success",
+      "reason": "dialog_closed_or_absent",
+      "data": {}
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "engaged",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.15,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "success",
+      "reason": "target_dead",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "success",
+      "reason": "loot_input_sequence_completed",
+      "data": {
+        "taps": 3,
+        "inventory_confirmed": false
+      }
+    },
+    {
+      "skill": "close_dialog",
+      "status": "running",
+      "reason": "escape_sent",
+      "data": {}
+    },
+    {
+      "skill": "close_dialog",
+      "status": "success",
+      "reason": "dialog_closed_or_absent",
+      "data": {}
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "engaged",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "l1_peel",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 350,
+        "burst": 1,
+        "target_hp": 0.0
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "failed",
+      "reason": "no_hud_lock",
+      "data": {
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "success",
+      "reason": "loot_input_sequence_completed",
+      "data": {
+        "taps": 3,
+        "inventory_confirmed": false
+      }
+    },
+    {
+      "skill": "rotate_right",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "rotate_right",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "right_arrow"
+      }
+    },
+    {
+      "skill": "rotate_right",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "engaged",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "l1_peel",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 350,
+        "burst": 1,
+        "target_hp": 0.0
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "failed",
+      "reason": "no_hud_lock",
+      "data": {
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "success",
+      "reason": "loot_input_sequence_completed",
+      "data": {
+        "taps": 3,
+        "inventory_confirmed": false
+      }
+    },
+    {
+      "skill": "rotate_left",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "left_arrow",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "rotate_left",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "left_arrow"
+      }
+    },
+    {
+      "skill": "rotate_left",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "left_arrow",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "engaged",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "l1_peel",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 350,
+        "burst": 1,
+        "target_hp": 0.0
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 0.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "failed",
+      "reason": "no_hud_lock",
+      "data": {
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "success",
+      "reason": "loot_input_sequence_completed",
+      "data": {
+        "taps": 3,
+        "inventory_confirmed": false
+      }
+    },
+    {
+      "skill": "rotate_right",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "rotate_right",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "right_arrow"
+      }
+    },
+    {
+      "skill": "rotate_right",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 0,
+        "key": "right_arrow"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 0,
+        "key": "right_arrow"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 1,
+        "key": "right_arrow"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 1,
+        "key": "right_arrow"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 2,
+        "key": "w"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 2,
+        "key": "w"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 3,
+        "key": "w"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 3,
+        "key": "w"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 4,
+        "key": "w"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "running",
+      "reason": "pulse",
+      "data": {
+        "index": 4,
+        "key": "w"
+      }
+    },
+    {
+      "skill": "u_turn",
+      "status": "success",
+      "reason": "uturn_complete",
+      "data": {
+        "pulses": 5
+      }
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "engaged",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "l1_peel",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 350,
+        "burst": 1,
+        "target_hp": null
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": null,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "failed",
+      "reason": "no_hud_lock",
+      "data": {
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "success",
+      "reason": "loot_input_sequence_completed",
+      "data": {
+        "taps": 3,
+        "inventory_confirmed": false
+      }
+    },
+    {
+      "skill": "rotate_left",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "left_arrow",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "rotate_left",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "left_arrow"
+      }
+    },
+    {
+      "skill": "rotate_left",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "left_arrow",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "running",
+      "reason": "holding",
+      "data": {
+        "key": "w"
+      }
+    },
+    {
+      "skill": "walk_pulse",
+      "status": "success",
+      "reason": "pulse_complete",
+      "data": {
+        "key": "w",
+        "duration_ms": 450
+      }
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "engaged",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "l1_peel",
+      "data": {
+        "key": "right_arrow",
+        "duration_ms": 350,
+        "burst": 1,
+        "target_hp": 1.0
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "running",
+      "reason": "in_combat",
+      "data": {
+        "target_hp": 1.0,
+        "f2_sent": 2
+      }
+    },
+    {
+      "skill": "attack_target",
+      "status": "aborted",
+      "reason": "aggro",
+      "data": {}
+    },
+    {
+      "skill": "close_dialog",
+      "status": "running",
+      "reason": "escape_sent",
+      "data": {}
+    },
+    {
+      "skill": "close_dialog",
+      "status": "success",
+      "reason": "dialog_closed_or_absent",
+      "data": {}
+    },
+    {
+      "skill": "target_next",
+      "status": "success",
+      "reason": "f1_sent",
+      "data": {}
+    },
+    {
+      "skill": "tap_hotkey",
+      "status": "success",
+      "reason": "tapped",
+      "data": {
+        "key": "F2",
+        "slot": 2
+      }
+    },
+    {
+      "skill": "tap_hotkey",
+      "status": "success",
+      "reason": "tapped",
+      "data": {
+        "key": "F2",
+        "slot": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 1
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_tap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "running",
+      "reason": "loot_gap",
+      "data": {
+        "taps": 2
+      }
+    },
+    {
+      "skill": "loot_target",
+      "status": "success",
+      "reason": "loot_input_sequence_completed",
+      "data": {
+        "taps": 3,
+        "inventory_confirmed": false
+      }
+    },
+    {
+      "skill": "close_dialog",
+      "status": "running",
+      "reason": "escape_sent",
+      "data": {}
+    },
+    {
+      "skill": "close_dialog",
+      "status": "success",
+      "reason": "dialog_closed_or_absent",
+      "data": {}
+    }
+  ],
+  "target_next_attempts": 14,
+  "attack_skill_runs": 8,
+  "attack_skill_success": 1,
+  "attack_skill_failed": 5,
+  "loot_skill_runs": 7,
+  "f2_input_count": 18,
+  "self_hp_start": 1.0,
+  "self_hp_min": 0.9745916515426497,
+  "self_hp_end": 1.0,
+  "focus_lost": false,
+  "capture_lost": false,
+  "runtime_abort_reason": null,
+  "release_all_called": true,
+  "frozen_used": false,
+  "snn_used": false,
+  "malecns_used": false,
+  "circuit_used": false,
+  "validation_result": "PASS",
+  "elapsed_sec": 113.024909584,
+  "start_self_hp": 1.0,
+  "observe": {
+    "n": 116.0,
+    "p50": 256.4416659879498,
+    "p90": 264.61591600673273,
+    "p95": 267.1478330157697,
+    "p99": 282.18541701789945,
+    "max": 496.9360830145888
+  },
+  "parse": {
+    "n": 116.0,
+    "p50": 55.130292021203786,
+    "p90": 57.287333998829126,
+    "p95": 58.02525003673509,
+    "p99": 60.87666697567329,
+    "max": 62.10304197156802
+  },
+  "encode": {
+    "n": 371.0,
+    "p50": 46.95108300074935,
+    "p90": 53.960916004143655,
+    "p95": 56.669583020266145,
+    "p99": 59.750458982307464,
+    "max": 67.10808299249038
+  },
+  "infer": {
+    "n": 8.0,
+    "p50": 0.00020902371034026146,
+    "p90": 0.00037497375160455704,
+    "p95": 0.00045797787606716156,
+    "p99": 0.00045797787606716156,
+    "max": 0.00045797787606716156
+  },
+  "act": {
+    "n": 51.0,
+    "p50": 859.1895410208963,
+    "p90": 1491.5473340079188,
+    "p95": 1510.1910830126144,
+    "p99": 3390.1520000072196,
+    "max": 3390.1520000072196
+  },
+  "e2e_p95_ms": 1892.0342070632614,
+  "total_session_ms": 113024.909584,
+  "final_hp": null,
+  "out": "docs/evidence/live-agent-runtime/R2-runtime-combat.json",
+  "capture_recovery_used": false
+}

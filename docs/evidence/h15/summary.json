@@ -1,0 +1,142 @@
+{
+  "hypothesis": "On the frozen nav-sim-v1 catalog seed=0, Observation.navigation raises success by at least 0.15 versus the same controller with color_blob only.",
+  "reject_if": "Delta success_rate < 0.15 on the same 60 episodes.",
+  "metrics_version": "repair-20260917",
+  "suite": "nav-sim-v1",
+  "seed": 0,
+  "replicas": 1,
+  "replica_reason": "same single-catalog protocol as F14/F15",
+  "held_out_independent": false,
+  "replaces_f14": false,
+  "arms": [
+    {
+      "name": "blob",
+      "encoder": "color_blob",
+      "channels": "blob",
+      "n": 60,
+      "successes": 22,
+      "success_rate": 0.36666666666666664,
+      "outcomes": {
+        "success": 22,
+        "stuck": 36,
+        "timeout": 2
+      },
+      "causes": {
+        "none": 22,
+        "mixed": 26,
+        "control": 12
+      },
+      "path": "docs/evidence/h15/blob.json",
+      "resumed": true
+    },
+    {
+      "name": "target",
+      "encoder": "navigation_v1",
+      "channels": "target",
+      "n": 60,
+      "successes": 22,
+      "success_rate": 0.36666666666666664,
+      "outcomes": {
+        "success": 22,
+        "stuck": 36,
+        "timeout": 2
+      },
+      "causes": {
+        "none": 22,
+        "mixed": 26,
+        "control": 12
+      },
+      "path": "docs/evidence/h15/target.json"
+    },
+    {
+      "name": "target_flow",
+      "encoder": "navigation_v1",
+      "channels": "target_flow",
+      "n": 60,
+      "successes": 21,
+      "success_rate": 0.35,
+      "outcomes": {
+        "success": 21,
+        "oscillate": 9,
+        "stuck": 12,
+        "timeout": 18
+      },
+      "causes": {
+        "none": 21,
+        "mixed": 17,
+        "control": 17,
+        "vision": 5
+      },
+      "path": "docs/evidence/h15/target_flow.json"
+    },
+    {
+      "name": "target_expansion",
+      "encoder": "navigation_v1",
+      "channels": "target_expansion",
+      "n": 60,
+      "successes": 20,
+      "success_rate": 0.3333333333333333,
+      "outcomes": {
+        "success": 20,
+        "stuck": 35,
+        "timeout": 5
+      },
+      "causes": {
+        "none": 20,
+        "mixed": 26,
+        "control": 12,
+        "vision": 2
+      },
+      "path": "docs/evidence/h15/target_expansion.json"
+    },
+    {
+      "name": "all",
+      "encoder": "navigation_v1",
+      "channels": "all",
+      "n": 60,
+      "successes": 24,
+      "success_rate": 0.4,
+      "outcomes": {
+        "success": 24,
+        "oscillate": 11,
+        "stuck": 7,
+        "timeout": 18
+      },
+      "causes": {
+        "none": 24,
+        "mixed": 15,
+        "control": 16,
+        "vision": 5
+      },
+      "path": "docs/evidence/h15/all.json"
+    }
+  ],
+  "delta_vs_blob": [
+    {
+      "name": "target",
+      "successes": 22,
+      "delta_success_rate": 0.0,
+      "meets_h15": false
+    },
+    {
+      "name": "target_flow",
+      "successes": 21,
+      "delta_success_rate": -0.016666666666666663,
+      "meets_h15": false
+    },
+    {
+      "name": "target_expansion",
+      "successes": 20,
+      "delta_success_rate": -0.033333333333333326,
+      "meets_h15": false
+    },
+    {
+      "name": "all",
+      "successes": 24,
+      "delta_success_rate": 0.03333333333333338,
+      "meets_h15": false
+    }
+  ],
+  "h15_status": "rejected",
+  "limitation": "synthetic stand; not transfer; not SNN; not a claim that memory is better"
+}

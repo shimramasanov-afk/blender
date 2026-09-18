@@ -1,0 +1,63 @@
+{
+  "candidates": [
+    {
+      "width": 32,
+      "height": 24,
+      "sectors": "5x3",
+      "flow": "6x4",
+      "encode_ms_p50": 8.110541999999999,
+      "encode_ms_p95": 10.356275099999998,
+      "n": 8,
+      "accuracy": 1.0,
+      "correct": 6,
+      "pairs": 6,
+      "sim_separates": false
+    },
+    {
+      "width": 48,
+      "height": 32,
+      "sectors": "5x3",
+      "flow": "8x6",
+      "encode_ms_p50": 36.5728745,
+      "encode_ms_p95": 36.908274999999996,
+      "n": 8,
+      "accuracy": 1.0,
+      "correct": 6,
+      "pairs": 6,
+      "sim_separates": true
+    },
+    {
+      "width": 64,
+      "height": 48,
+      "sectors": "7x3",
+      "flow": "10x8",
+      "encode_ms_p50": 89.86375000000001,
+      "encode_ms_p95": 90.9762351,
+      "n": 8,
+      "accuracy": 0.8333333333333334,
+      "correct": 5,
+      "pairs": 6,
+      "sim_separates": false
+    }
+  ],
+  "picked": {
+    "width": 48,
+    "height": 32,
+    "sectors": "5x3",
+    "flow": "8x6",
+    "encode_ms_p50": 36.5728745,
+    "encode_ms_p95": 36.908274999999996,
+    "n": 8,
+    "accuracy": 1.0,
+    "correct": 6,
+    "pairs": 6,
+    "sim_separates": true
+  },
+  "starter": {
+    "width": 48,
+    "height": 32,
+    "sectors_x": 5
+  },
+  "no_object_model": true,
+  "limitation": "synthetic discrimination; not MMORPG transfer"
+}

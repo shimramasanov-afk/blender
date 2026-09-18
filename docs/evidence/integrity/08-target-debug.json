@@ -1,0 +1,47 @@
+[
+  {
+    "scenario": "open_goal",
+    "pixels": 82,
+    "mass": 0.02001953125,
+    "confidence": 0.16015625,
+    "seen": true,
+    "above_policy_threshold": true,
+    "threshold_unchanged": true
+  },
+  {
+    "scenario": "corridor",
+    "pixels": 45,
+    "mass": 0.010986328125,
+    "confidence": 0.087890625,
+    "seen": true,
+    "above_policy_threshold": false,
+    "threshold_unchanged": true
+  },
+  {
+    "scenario": "narrow_gate",
+    "pixels": 64,
+    "mass": 0.015625,
+    "confidence": 0.125,
+    "seen": true,
+    "above_policy_threshold": true,
+    "threshold_unchanged": true
+  },
+  {
+    "scenario": "single_obstacle",
+    "pixels": 0,
+    "mass": 0.0,
+    "confidence": 0.0,
+    "seen": false,
+    "above_policy_threshold": false,
+    "threshold_unchanged": true
+  },
+  {
+    "scenario": "weak_texture",
+    "pixels": 0,
+    "mass": 0.0,
+    "confidence": 0.0,
+    "seen": false,
+    "above_policy_threshold": false,
+    "threshold_unchanged": true
+  }
+]

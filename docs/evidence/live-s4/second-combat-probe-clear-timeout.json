@@ -1,0 +1,114 @@
+{
+  "ok": false,
+  "s4_open": true,
+  "clean_target": true,
+  "live": true,
+  "hid_sent": true,
+  "aborted": "clear_timeout",
+  "window_id": 13944,
+  "target_pid": 68342,
+  "start_self_hp": 0.9431818181818182,
+  "target_name_detected": false,
+  "target_locked": false,
+  "initial_target_hp": null,
+  "final_target_hp": null,
+  "damage_detected": false,
+  "f1_to_lock_ms": null,
+  "f2_to_hp_drop_ms": null,
+  "f2_pulses": 0,
+  "stuck_keys_count": 0,
+  "watchdog_tripped": false,
+  "ticks": 31,
+  "session_ms": 2382.380542,
+  "steps": [
+    {
+      "step": "capture_start",
+      "t_ms": 268.86375,
+      "fps": 30
+    },
+    {
+      "step": "self_bars_ok",
+      "t_ms": 1314.916375,
+      "self_hp": 0.9431818181818182
+    },
+    {
+      "step": "pre_clear_Escape",
+      "t_ms": 1359.825625,
+      "hid_sent": true
+    },
+    {
+      "step": "abort",
+      "t_ms": 2382.27225,
+      "reason": "clear_timeout"
+    }
+  ],
+  "events": [
+    {
+      "timestamp_ns": 303226778644250,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303226823427625,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303227845991333,
+      "action_type": "EmergencyStop",
+      "key": "F12",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "clear_timeout",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 303227846007250,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    }
+  ],
+  "transfer_claim": false,
+  "farm": false,
+  "walk": false
+}

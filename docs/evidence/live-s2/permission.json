@@ -1,0 +1,11 @@
+{
+  "requested_permission": false,
+  "sck_minimum_ok": true,
+  "preflight": true,
+  "status": "granted",
+  "hint": "System Settings → Privacy & Security → Screen Recording. This tool does not change permissions.",
+  "macos_major": 27,
+  "macos": "Version 27.0 (Build 26A428)",
+  "sck_minimum": "12.3",
+  "kind": "permission"
+}

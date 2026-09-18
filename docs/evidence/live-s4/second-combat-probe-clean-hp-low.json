@@ -1,0 +1,143 @@
+{
+  "ok": false,
+  "s4_open": true,
+  "clean_target": true,
+  "live": true,
+  "hid_sent": true,
+  "aborted": "clean_hp_low",
+  "window_id": 13944,
+  "target_pid": 68342,
+  "start_self_hp": 0.9431818181818182,
+  "target_name_detected": false,
+  "target_locked": false,
+  "initial_target_hp": null,
+  "final_target_hp": null,
+  "damage_detected": false,
+  "f1_to_lock_ms": null,
+  "f2_to_hp_drop_ms": null,
+  "f2_pulses": 0,
+  "stuck_keys_count": 0,
+  "watchdog_tripped": false,
+  "ticks": 63,
+  "session_ms": 4550.805792,
+  "steps": [
+    {
+      "step": "capture_start",
+      "t_ms": 240.163084,
+      "fps": 30
+    },
+    {
+      "step": "self_bars_ok",
+      "t_ms": 1288.809417,
+      "self_hp": 0.9431818181818182
+    },
+    {
+      "step": "pre_clear_Escape",
+      "t_ms": 1342.525875,
+      "hid_sent": true,
+      "pulse": 1
+    },
+    {
+      "step": "cleared",
+      "t_ms": 1546.841,
+      "target_locked": true,
+      "target_dead": true,
+      "target_hp": 0.0
+    },
+    {
+      "step": "F1",
+      "t_ms": 1546.975959,
+      "hid_sent": true
+    },
+    {
+      "step": "abort",
+      "t_ms": 4550.714,
+      "reason": "clean_hp_low"
+    }
+  ],
+  "events": [
+    {
+      "timestamp_ns": 303302650194250,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303302703800750,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303302908217208,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303305912089833,
+      "action_type": "EmergencyStop",
+      "key": "F12",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "clean_hp_low",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 303305912102541,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    }
+  ],
+  "transfer_claim": false,
+  "farm": false,
+  "walk": false
+}

@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "hid_sent": false,
+  "window_id": null,
+  "window_title": "client-reference.png",
+  "width": 4112,
+  "height": 2580,
+  "mean_luma": 64.80206247046522,
+  "profile": "config/window_profiles/parallels_l2.json",
+  "reference": "docs/evidence/live-s4/client-reference.png",
+  "overlay": "docs/evidence/live-s4/hud-overlay-hod40-f44.png",
+  "source": "docs/evidence/live-s4/client-reference.png",
+  "roi": {
+    "self_bars": {
+      "norm_rect": [
+        0.011673151750972763,
+        0.037209302325581395,
+        0.09727626459143969,
+        0.06666666666666667
+      ],
+      "pixel_box": [
+        48,
+        96,
+        448,
+        268
+      ]
+    },
+    "self_cp": {
+      "norm_rect": [
+        0.07295719844357977,
+        0.0686046511627907,
+        0.02529182879377432,
+        0.0027131782945736434
+      ],
+      "pixel_box": [
+        300,
+        177,
+        404,
+        184
+      ]
+    },
+    "self_hp": {
+      "norm_rect": [
+        0.07684824902723736,
+        0.07945736434108527,
+        0.021400778210116732,
+        0.002325581395348837
+      ],
+      "pixel_box": [
+        316,
+        205,
+        404,
+        211
+      ]
+    },
+    "self_mp": {
+      "norm_rect": [
+        0.07295719844357977,
+        0.08449612403100776,
+        0.02529182879377432,
+        0.0069767441860465115
+      ],
+      "pixel_box": [
+        300,
+        218,
+        404,
+        236
+      ]
+    },
+    "target_frame": {
+      "norm_rect": [
+        0.4717898832684825,
+        0.02945736434108527,
+        0.19941634241245138,
+        0.034496124031007755
+      ],
+      "pixel_box": [
+        1940,
+        76,
+        2760,
+        165
+      ]
+    },
+    "target_hp": {
+      "norm_rect": [
+        0.48662451361867703,
+        0.053875968992248065,
+        0.17266536964980544,
+        0.0011627906976744186
+      ],
+      "pixel_box": [
+        2001,
+        139,
+        2711,
+        142
+      ]
+    }
+  },
+  "roi_source": "profile",
+  "tag": "hod40-f44",
+  "parse": {
+    "valid": true,
+    "confidence": 0.85,
+    "self_hp_ratio": 0.0,
+    "self_mp_ratio": 0.0,
+    "self_cp_ratio": 0.0,
+    "target_locked": false,
+    "target_hp_ratio": null,
+    "target_dead": false,
+    "reason": null
+  }
+}

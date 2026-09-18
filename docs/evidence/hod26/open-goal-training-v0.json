@@ -1,0 +1,90 @@
+{
+  "suite": "nav-sim-v1-mini",
+  "hypothesis": "On one open-field episode, four controllers can be compared on resources and outcome. Not Frozen 60. Not H3/H4.",
+  "reject_if": "A controller raises, yields no MotorIntent, or this table is published as catalog superiority.",
+  "n_runs": 1,
+  "why_one_run": "Hod 26 mini-set: single frozen episode, seed=0. Not a multi-seed claim.",
+  "learned": false,
+  "transfer_claim": false,
+  "biological_claim": false,
+  "rows": [
+    {
+      "controller": "baseline_v1",
+      "episode_id": "open_goal:training:v0:s0",
+      "outcome": "success",
+      "success": true,
+      "ticks": 72,
+      "collisions": 0,
+      "n_params": 101,
+      "param_kind": "heuristic_knobs",
+      "state_floats": 4,
+      "k_substeps": 1,
+      "infer_ms_p50": 0.0440205,
+      "infer_ms_p95": 0.06347675,
+      "learned": false,
+      "transfer_claim": false
+    },
+    {
+      "controller": "baseline_memory_v1",
+      "episode_id": "open_goal:training:v0:s0",
+      "outcome": "success",
+      "success": true,
+      "ticks": 72,
+      "collisions": 0,
+      "n_params": 101,
+      "param_kind": "heuristic_knobs",
+      "state_floats": 8,
+      "k_substeps": 1,
+      "infer_ms_p50": 0.056313,
+      "infer_ms_p95": 0.07846075,
+      "learned": false,
+      "transfer_claim": false
+    },
+    {
+      "controller": "gru_v1",
+      "episode_id": "open_goal:training:v0:s0",
+      "outcome": "success",
+      "success": true,
+      "ticks": 162,
+      "collisions": 0,
+      "n_params": 1186,
+      "param_kind": "dense_weights",
+      "state_floats": 16,
+      "k_substeps": 1,
+      "infer_ms_p50": 0.069583,
+      "infer_ms_p95": 0.09801185,
+      "learned": false,
+      "transfer_claim": false
+    },
+    {
+      "controller": "snn_v1",
+      "episode_id": "open_goal:training:v0:s0",
+      "outcome": "success",
+      "success": true,
+      "ticks": 61,
+      "collisions": 0,
+      "n_params": 4480,
+      "param_kind": "dense_stored_weights",
+      "state_floats": 128,
+      "k_substeps": 50,
+      "infer_ms_p50": 1.627042,
+      "infer_ms_p95": 1.697375,
+      "learned": false,
+      "transfer_claim": false
+    }
+  ],
+  "extras": {
+    "seed": 0,
+    "scenario": "open_goal",
+    "split": "training",
+    "variant": 0,
+    "accounting": {
+      "baseline_n_params": "numeric BaselineConfig fields, not network weights",
+      "gru_n_params": "dense GRU + linear head; W_out is zero when residual_scale=0",
+      "snn_n_params": "dense stored w_rec + w_in; conceptual sparsity not subtracted",
+      "snn_state_floats": "V and I_syn only (2*n); traces not counted",
+      "k_substeps": "GRU and baseline K=1; SNN K=steps_per_tick"
+    },
+    "not_a_claim": "n=1 open_goal. Not Frozen 60. Not H3/H4. Not catalog ranking."
+  }
+}

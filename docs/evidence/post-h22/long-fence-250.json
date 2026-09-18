@@ -1,0 +1,124 @@
+{
+  "suite": "nav-sim-v1",
+  "scenario": "long_fence",
+  "controller": "baseline_memory_v1",
+  "encoder": "navigation_v1",
+  "seed": 0,
+  "max_steps": 250,
+  "learned": false,
+  "transfer_claim": false,
+    "hypothesis": "Post-hod22 kinematic check: long_fence frozen seed=0 at max_steps=250. Expected v0 finish 220-230.",
+    "reject_if": "v0 did not succeed, or collisions on v0. Finish 220-230 is a prediction, not a gate: actual v0=244.",
+  "episodes": [
+    {
+      "episode_id": "long_fence:training:v0:s0",
+      "split": "training",
+      "variant": 0,
+      "success": true,
+      "timeout": false,
+      "outcome": "success",
+      "ticks": 244,
+      "collisions": 0,
+      "no_progress": false,
+      "first_los": 183,
+      "first_hold_0_08": 184,
+      "first_acquire_0_12": 184,
+      "wrap_tick": 111,
+      "min_y": 3.5455,
+      "end_xy": [
+        10.7587,
+        7.5531
+      ],
+      "end_dist": 0.7358,
+      "max_steps": 250
+    },
+    {
+      "episode_id": "long_fence:training:v1:s0",
+      "split": "training",
+      "variant": 1,
+      "success": true,
+      "timeout": false,
+      "outcome": "success",
+      "ticks": 250,
+      "collisions": 0,
+      "no_progress": false,
+      "first_los": 185,
+      "first_hold_0_08": 186,
+      "first_acquire_0_12": 186,
+      "wrap_tick": 113,
+      "min_y": 3.5399,
+      "end_xy": [
+        10.7518,
+        7.6609
+      ],
+      "end_dist": 0.7266,
+      "max_steps": 250
+    },
+    {
+      "episode_id": "long_fence:training:v2:s0",
+      "split": "training",
+      "variant": 2,
+      "success": false,
+      "timeout": true,
+      "outcome": "stuck",
+      "ticks": 250,
+      "collisions": 77,
+      "no_progress": true,
+      "first_los": null,
+      "first_hold_0_08": null,
+      "first_acquire_0_12": null,
+      "wrap_tick": 117,
+      "min_y": 4.1933,
+      "end_xy": [
+        6.2741,
+        4.2279
+      ],
+      "end_dist": 6.4471,
+      "max_steps": 250
+    },
+    {
+      "episode_id": "long_fence:validation:v3:s0",
+      "split": "validation",
+      "variant": 3,
+      "success": false,
+      "timeout": true,
+      "outcome": "timeout",
+      "ticks": 250,
+      "collisions": 0,
+      "no_progress": false,
+      "first_los": 197,
+      "first_hold_0_08": 198,
+      "first_acquire_0_12": 198,
+      "wrap_tick": 124,
+      "min_y": 3.6146,
+      "end_xy": [
+        10.5845,
+        7.0146
+      ],
+      "end_dist": 1.3014,
+      "max_steps": 250
+    },
+    {
+      "episode_id": "long_fence:held_out:v4:s0",
+      "split": "held_out",
+      "variant": 4,
+      "success": false,
+      "timeout": true,
+      "outcome": "stuck",
+      "ticks": 250,
+      "collisions": 76,
+      "no_progress": true,
+      "first_los": null,
+      "first_hold_0_08": null,
+      "first_acquire_0_12": null,
+      "wrap_tick": 114,
+      "min_y": 3.747,
+      "end_xy": [
+        6.271,
+        3.747
+      ],
+      "end_dist": 6.6629,
+      "max_steps": 250
+    }
+  ]
+}

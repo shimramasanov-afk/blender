@@ -1,0 +1,261 @@
+{
+  "profile_id": "parallels_l2",
+  "window_title": "Windows 11",
+  "owner_name": "Parallels Desktop",
+  "bundle_id": "com.parallels.desktop.console",
+  "expected_size": {
+    "width": 2056,
+    "height": 1290
+  },
+  "capture_size": {
+    "width": 4112,
+    "height": 2580
+  },
+  "hud_measured": true,
+  "hud_source": "docs/evidence/live-s4/client-reference-hod95.png",
+  "note": "Visible VM window. Self StatusWnd rematched 2026-09-18 after operator enlarged CP/HP/MP (hod95, 4112x2580). Target named ROI still F45 parking; recover_target_lock finds other red bands and excludes self. Dragging L2 widgets invalidates these rects. window_id is not stable.",
+  "roi": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 1.0
+  },
+  "mask_fill": [
+    0,
+    0,
+    0
+  ],
+  "masks": [
+    {
+      "name": "ui",
+      "norm_rect": [
+        0.0007295719844357977,
+        0.02868217054263566,
+        0.1517509727626459,
+        0.05155038759689923
+      ]
+    },
+    {
+      "name": "target",
+      "norm_rect": [
+        0.4717898832684825,
+        0.02945736434108527,
+        0.19941634241245138,
+        0.034496124031007755
+      ]
+    },
+    {
+      "name": "hotbar",
+      "norm_rect": [
+        0.19455252918287938,
+        0.975968992248062,
+        0.04815175097276265,
+        0.01317829457364341
+      ]
+    }
+  ],
+  "hud": {
+    "self_bars": {
+      "norm_rect": [
+        0.0007295719844357977,
+        0.02868217054263566,
+        0.1517509727626459,
+        0.05155038759689923
+      ]
+    },
+    "self_cp": {
+      "norm_rect": [
+        0.007538910505836576,
+        0.050387596899224806,
+        0.13399805447470817,
+        0.001937984496124031
+      ]
+    },
+    "self_hp": {
+      "norm_rect": [
+        0.007538910505836576,
+        0.05852713178294574,
+        0.13399805447470817,
+        0.0015503875968992248
+      ]
+    },
+    "self_mp": {
+      "norm_rect": [
+        0.007538910505836576,
+        0.06279069767441861,
+        0.13399805447470817,
+        0.0050387596899224806
+      ]
+    },
+    "target_frame": {
+      "norm_rect": [
+        0.4717898832684825,
+        0.02945736434108527,
+        0.19941634241245138,
+        0.034496124031007755
+      ]
+    },
+    "target_hp": {
+      "norm_rect": [
+        0.48662451361867703,
+        0.053875968992248065,
+        0.17266536964980544,
+        0.0011627906976744186
+      ]
+    },
+    "hotbar_f1": {
+      "norm_rect": [
+        0.19455252918287938,
+        0.975968992248062,
+        0.015077821011673152,
+        0.01317829457364341
+      ]
+    },
+    "hotbar_f2": {
+      "norm_rect": [
+        0.21108949416342412,
+        0.975968992248062,
+        0.015077821011673152,
+        0.01317829457364341
+      ]
+    },
+    "hotbar_f3": {
+      "norm_rect": [
+        0.22762645914396887,
+        0.975968992248062,
+        0.015077821011673152,
+        0.01317829457364341
+      ]
+    }
+  },
+  "measured_boxes_4112x2580": {
+    "self_bars": [
+      3,
+      74,
+      627,
+      207
+    ],
+    "self_cp": [
+      31,
+      130,
+      582,
+      135
+    ],
+    "self_hp": [
+      31,
+      151,
+      582,
+      155
+    ],
+    "self_mp": [
+      31,
+      162,
+      582,
+      175
+    ],
+    "target_frame": [
+      1940,
+      76,
+      2760,
+      165
+    ],
+    "target_hp": [
+      2001,
+      139,
+      2711,
+      142
+    ],
+    "hotbar_f1": [
+      800,
+      2518,
+      862,
+      2552
+    ],
+    "hotbar_f2": [
+      868,
+      2518,
+      930,
+      2552
+    ],
+    "hotbar_f3": [
+      936,
+      2518,
+      998,
+      2552
+    ]
+  },
+  "layout_slots": {
+    "ref_window": [2560, 1600],
+    "hotkey_close": "escape",
+    "note": "Park targets in guest 2560x1600. Overlay scales onto the host Parallels window (now 2056x1290). Occupancy is valid only after parking.",
+    "slots": {
+      "hud_self": {
+        "window_px": [10, 10, 220, 70],
+        "title_bar": [0, 0, 220, 24]
+      },
+      "hud_target": {
+        "window_px": [1140, 15, 280, 50],
+        "title_bar": [0, 0, 280, 20]
+      },
+      "radar": {
+        "window_px": [2380, 10, 170, 170],
+        "title_bar": [0, 0, 170, 20]
+      },
+      "slot_dialog_left": {
+        "window_px": [60, 140, 400, 520],
+        "hotkey_close": "escape",
+        "title_bar": [0, 0, 400, 30],
+        "first_link": [45, 110],
+        "link_step_y": 24
+      },
+      "slot_modal_right": {
+        "window_px": [2140, 140, 360, 480],
+        "hotkey_close": "escape",
+        "title_bar": [0, 0, 360, 30],
+        "registered_windows": {
+          "inventory": {
+            "hotkey_toggle": "tab",
+            "grid_origin": [20, 180],
+            "cell_size": 32
+          },
+          "skills": {
+            "hotkey_toggle": "alt+k",
+            "list_origin": [25, 80]
+          },
+          "macros": {
+            "hotkey_toggle": "alt+r",
+            "btn_add": [180, 440],
+            "name_field": [80, 60],
+            "line_1": [40, 120]
+          }
+        }
+      },
+      "hotbar": {
+        "window_px": [380, 1564, 520, 32],
+        "title_bar": [0, 0, 520, 10]
+      }
+    }
+  },
+  "motion": {
+    "rotation_backend": "keyboard_arrow",
+    "arrow_right_keycode": 124,
+    "arrow_left_keycode": 123,
+    "yaw_rate_deg_per_sec": 1.815438657780306,
+    "step_px_per_sec": 119.0904021767009,
+    "turn_90_duration_ms": null,
+    "fov_h_deg_assumed": 75.0,
+    "yaw_from_assumed_fov": true,
+    "hold_ms": 500,
+    "yaw_shift_px": 49.7672250719508,
+    "yaw_peak": 0.023344378632904405,
+    "step_peak": 0.025343633085126462,
+    "crop_band": "center",
+    "crop_y": null,
+    "crop_x": null,
+    "peak_threshold": 0.15,
+    "peak_reliable": false,
+    "confidence": "low",
+    "h8_closed": false,
+    "q5_gt_yaw": false
+  }
+}

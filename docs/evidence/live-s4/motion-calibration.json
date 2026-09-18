@@ -1,0 +1,189 @@
+{
+  "ok": true,
+  "live": true,
+  "aborted": null,
+  "window_id": 13944,
+  "target_pid": 68342,
+  "rotation_type": "keyboard_arrow",
+  "yaw_shift_px": 20.776149377989288,
+  "yaw_shift_dy_px": -1.9836064348941147,
+  "yaw_peak": 0.02277601623552608,
+  "deg_per_sec": 0.7578848265317104,
+  "step_shift_px": 165.1808691797376,
+  "step_shift_dx_px": 162.22671087274108,
+  "step_shift_dy_px": 31.10006145308508,
+  "step_scale": 1.0,
+  "step_px_per_sec": 330.3617383594752,
+  "motion_detected": true,
+  "fov_h_deg_assumed": 75.0,
+  "yaw_from_assumed_fov": true,
+  "h8_closed": false,
+  "q5_gt_yaw": false,
+  "hid_sent": true,
+  "stuck_keys_count": 0,
+  "watchdog_tripped": false,
+  "ticks": 3,
+  "session_ms": 1810.626708,
+  "steps": [
+    {
+      "step": "capture_start",
+      "t_ms": 240.524625,
+      "crop": [
+        500,
+        300
+      ],
+      "hold_ms": 500,
+      "fov_h_deg_assumed": 75.0
+    },
+    {
+      "step": "I0",
+      "t_ms": 258.965791,
+      "shape": [
+        300,
+        500
+      ],
+      "frame_w": 4112
+    },
+    {
+      "step": "right_arrow",
+      "t_ms": 855.812333,
+      "duration_ms": 500
+    },
+    {
+      "step": "I1",
+      "t_ms": 1069.574541,
+      "yaw_shift_px": 20.776149377989288,
+      "yaw_shift_dy_px": -1.9836064348941147,
+      "peak": 0.02277601623552608,
+      "deg_per_sec": 0.7578848265317104
+    },
+    {
+      "step": "I2",
+      "t_ms": 1069.615333
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 1598.532666,
+      "key": "w",
+      "duration_ms": 500
+    },
+    {
+      "step": "I3",
+      "t_ms": 1810.523791,
+      "step_shift_px": 165.1808691797376,
+      "step_dx": 162.22671087274108,
+      "step_dy": 31.10006145308508,
+      "step_peak": 0.03442186523813608,
+      "step_scale": 1.0,
+      "step_scale_conf": 0.00160128641438273,
+      "step_px_per_sec": 330.3617383594752
+    },
+    {
+      "step": "done",
+      "t_ms": 1810.569791,
+      "motion_detected": true
+    }
+  ],
+  "events": [
+    {
+      "timestamp_ns": 305443922636458,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 500,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 305444519351375,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 305444733255083,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 500,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 305445262071416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 305445474206750,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    }
+  ],
+  "farm": false,
+  "transfer_claim": false,
+  "motion": {
+    "rotation_backend": "keyboard_arrow",
+    "arrow_right_keycode": 124,
+    "arrow_left_keycode": 123,
+    "yaw_rate_deg_per_sec": 0.7578848265317104,
+    "step_px_per_sec": 330.3617383594752,
+    "turn_90_duration_ms": null,
+    "fov_h_deg_assumed": 75.0,
+    "yaw_from_assumed_fov": true,
+    "hold_ms": 500,
+    "yaw_shift_px": 20.776149377989288,
+    "yaw_peak": 0.02277601623552608,
+    "step_peak": 0.03442186523813608,
+    "confidence": "low",
+    "h8_closed": false
+  },
+  "profile_written": "config/window_profiles/parallels_l2.json",
+  "step_peak": 0.03442186523813608
+}

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "l2-brain"
+version = "0.7.0"
+description = "Sensorimotor stand and controller comparison for a biomimetic MMORPG agent"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+]
+torch = [
+    "torch",
+]
+calib = [
+    "opencv-python-headless>=4.10",
+]
+
+[project.scripts]
+l2-brain = "l2_brain.cli:main"
+l2-brain-eval = "l2_brain.evaluate:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

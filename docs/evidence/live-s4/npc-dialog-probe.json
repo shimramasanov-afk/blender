@@ -1,0 +1,143 @@
+{
+  "ok": false,
+  "s4_open": true,
+  "npc_dialog": true,
+  "farm": false,
+  "combat": false,
+  "heal_sent": false,
+  "live": true,
+  "hid_sent": true,
+  "aborted": "dialog_timeout",
+  "window_id": 16372,
+  "target_pid": 68342,
+  "slot": "F5",
+  "target_acquired": true,
+  "approach_time_sec": 8.106789,
+  "dialog_detected": false,
+  "dialog_confidence": null,
+  "dialog_reason": null,
+  "click_dispatched": false,
+  "click_xy": null,
+  "link_kind": null,
+  "escape_sent": false,
+  "png": null,
+  "ticks": 63,
+  "steps": [
+    {
+      "step": "npc_start",
+      "t_ms": 359.714834,
+      "slot": "F5",
+      "farm": false,
+      "dialog_wait_s": 8.0
+    },
+    {
+      "step": "F5",
+      "t_ms": 1205.231584,
+      "hid_sent": true,
+      "slot": 5
+    },
+    {
+      "step": "target_acquired",
+      "t_ms": 1369.845709,
+      "target_hp": 0.0
+    },
+    {
+      "step": "F5",
+      "t_ms": 1369.974042,
+      "hid_sent": true,
+      "slot": 5
+    },
+    {
+      "step": "approach",
+      "t_ms": 1369.985042,
+      "slot": "F5"
+    },
+    {
+      "step": "abort",
+      "t_ms": 9476.670334,
+      "reason": "dialog_timeout",
+      "approach_s": 8.106789
+    }
+  ],
+  "events": [
+    {
+      "timestamp_ns": 359079969767833,
+      "action_type": "SkillActivate",
+      "key": "F5",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 359080195812625,
+      "action_type": "SkillActivate",
+      "key": "F5",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 359088303299291,
+      "action_type": "EmergencyStop",
+      "key": "F12",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "dialog_timeout",
+      "dry_run": false,
+      "hid_sent": false
+    },
+    {
+      "timestamp_ns": 359088303319708,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    }
+  ],
+  "stuck_keys_count": 0,
+  "watchdog_tripped": false,
+  "parse_dialog": {
+    "n": 63.0,
+    "p50": 61.41266704071313,
+    "p90": 98.37683301884681,
+    "p95": 99.02820899151266,
+    "p99": 99.89479201612994,
+    "max": 100.2624579705298
+  },
+  "session_ms": 9477.434209,
+  "total_session_ms": 9477.434209,
+  "final_hp": null,
+  "out": "docs/evidence/live-s4/npc-dialog-probe.json",
+  "elapsed_time_sec": 9.477434208999998
+}

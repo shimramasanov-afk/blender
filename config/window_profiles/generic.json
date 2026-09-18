@@ -1,0 +1,10 @@
+{
+  "profile_id": "generic",
+  "roi": {"x": 0.0, "y": 0.0, "w": 1.0, "h": 1.0},
+  "mask_fill": [0, 0, 0],
+  "masks": [
+    {"name": "ui", "norm_rect": [0.0, 0.0, 0.0, 0.0]},
+    {"name": "character_center", "norm_rect": [0.0, 0.0, 0.0, 0.0]},
+    {"name": "ignore_nav", "norm_rect": [0.0, 0.0, 0.0, 0.0]}
+  ]
+}

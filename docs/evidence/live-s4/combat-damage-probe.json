@@ -1,0 +1,185 @@
+{
+  "ok": true,
+  "s4_open": true,
+  "clean_target": false,
+  "engage_any": true,
+  "hotbar": {
+    "F1": "/targetnext",
+    "F2": "Attack",
+    "F3": "Pickup"
+  },
+  "live": true,
+  "hid_sent": true,
+  "aborted": null,
+  "window_id": 13944,
+  "target_pid": 68342,
+  "start_self_hp": 0.9431818181818182,
+  "target_name_detected": true,
+  "target_locked": true,
+  "initial_target_hp": 0.44366197183098594,
+  "final_target_hp": 0.36619718309859156,
+  "damage_detected": true,
+  "f1_to_lock_ms": 256.103167,
+  "f2_to_hp_drop_ms": 1030.697459,
+  "f1_pulses": 1,
+  "f2_pulses": 2,
+  "stuck_keys_count": 0,
+  "watchdog_tripped": false,
+  "ticks": 34,
+  "session_ms": 2576.998375,
+  "steps": [
+    {
+      "step": "capture_start",
+      "t_ms": 237.870375,
+      "fps": 30
+    },
+    {
+      "step": "self_bars_ok",
+      "t_ms": 1289.914833,
+      "self_hp": 0.9431818181818182
+    },
+    {
+      "step": "F1",
+      "t_ms": 1343.268667,
+      "hid_sent": true,
+      "pulse": 1
+    },
+    {
+      "step": "target_lock",
+      "t_ms": 1546.058625,
+      "target_hp": 0.44366197183098594,
+      "f1_to_lock_ms": 256.103167,
+      "f1_pulses": 1
+    },
+    {
+      "step": "F2",
+      "t_ms": 1546.177375,
+      "pulse": 1,
+      "hid_sent": true
+    },
+    {
+      "step": "F2",
+      "t_ms": 1753.637542,
+      "pulse": 2,
+      "hid_sent": true
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 2576.790167,
+      "initial_target_hp": 0.44366197183098594,
+      "final_target_hp": 0.36619718309859156,
+      "damage_detected": true,
+      "f2_to_hp_drop_ms": 1030.697459
+    },
+    {
+      "step": "Escape",
+      "t_ms": 2576.928667,
+      "hid_sent": true
+    },
+    {
+      "step": "done",
+      "t_ms": 2576.939375
+    }
+  ],
+  "events": [
+    {
+      "timestamp_ns": 303606128311000,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303606384445125,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303606591915291,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303607415178916,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303607415252333,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 303607415298166,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    }
+  ],
+  "transfer_claim": false,
+  "farm": false,
+  "walk": false
+}

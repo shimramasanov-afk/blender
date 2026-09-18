@@ -1,0 +1,7375 @@
+{
+  "ok": true,
+  "s4_open": true,
+  "spot_series": true,
+  "integrated": true,
+  "farm": false,
+  "no_heal": true,
+  "heal_sent": false,
+  "live": true,
+  "hid_sent": true,
+  "aborted": null,
+  "window_id": 16372,
+  "target_pid": 68342,
+  "timeout_s": null,
+  "total_kills": 5,
+  "kills_completed": 5,
+  "roam_cycles": 11,
+  "l1_stuck_triggers": 0,
+  "l1_triggers": 0,
+  "aggro_interrupts": 0,
+  "u_turns_executed": 1,
+  "elapsed_time_sec": 94.616320167,
+  "avg_combat_duration_sec": 3.3596663751999998,
+  "frags": [
+    {
+      "kill": 1,
+      "search_ms": 115.578417,
+      "combat_ms": 3703.078292,
+      "loot_ms": 1828.623292,
+      "roam_cycles": 0,
+      "l1_triggers": 0,
+      "initial_hp": 0.44366197183098594,
+      "final_hp": 0.0
+    },
+    {
+      "kill": 2,
+      "search_ms": 339.804875,
+      "combat_ms": 3759.245042,
+      "loot_ms": 1807.506209,
+      "roam_cycles": 0,
+      "l1_triggers": 0,
+      "initial_hp": 0.44366197183098594,
+      "final_hp": 0.0
+    },
+    {
+      "kill": 3,
+      "search_ms": 348.855125,
+      "combat_ms": 2187.01025,
+      "loot_ms": 1810.894083,
+      "roam_cycles": 0,
+      "l1_triggers": 0,
+      "initial_hp": 0.44366197183098594,
+      "final_hp": 0.0
+    },
+    {
+      "kill": 4,
+      "search_ms": 381.793875,
+      "combat_ms": 2842.634292,
+      "loot_ms": 1617.896708,
+      "roam_cycles": 0,
+      "l1_triggers": 0,
+      "initial_hp": 0.44366197183098594,
+      "final_hp": 0.0
+    },
+    {
+      "kill": 5,
+      "search_ms": 230.550209,
+      "combat_ms": 4306.364,
+      "loot_ms": 1835.451125,
+      "roam_cycles": 0,
+      "l1_triggers": 0,
+      "initial_hp": 0.44366197183098594,
+      "final_hp": 0.0
+    }
+  ],
+  "flow_samples": [
+    {
+      "t_ms": 373.57875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 486.00975,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 600.439459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 713.019792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 825.831709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 938.472625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1054.50225,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1167.686959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1280.236834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1395.171,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1577.458292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1684.74825,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1795.512875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 1910.153459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2024.638292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2137.563,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2251.086292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2364.7175,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2482.852667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2594.687209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2708.744792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2819.588209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 2935.435417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3045.331625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3154.621875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3272.440875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3385.329792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3499.110875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3612.383542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3719.426875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3833.2135,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 3947.671334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 4990.800375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 5104.93775,
+      "expansion": 0.0,
+      "flow_magnitude": 0.11764705926179886
+    },
+    {
+      "t_ms": 5650.988292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0555555559694767
+    },
+    {
+      "t_ms": 5765.6495,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 6320.289,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 6434.360584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 6975.347917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7096.21375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7205.798542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7317.539334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7424.545709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7534.490167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7648.035459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7759.114375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7867.9675,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 7979.499542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8090.673167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8202.107334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8312.17325,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8422.397334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8534.123125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8643.797917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8758.4995,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8868.260292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 8981.776042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 9094.774584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 9206.157084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 9321.290292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 9435.580417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 10457.449209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0555555559694767
+    },
+    {
+      "t_ms": 10581.150292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.095238097012043
+    },
+    {
+      "t_ms": 11123.767417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0555555559694767
+    },
+    {
+      "t_ms": 11239.751375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 11789.342959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 11912.1925,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 12472.888542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 12594.005542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 12708.242459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 12816.920834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 12924.992125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13038.438,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13152.841459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13267.849542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13377.914125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13489.801292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13605.594625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13720.358709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13832.934625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 13946.496917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14060.641792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14168.64425,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14280.990042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14392.183084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14502.545334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14620.069584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14732.700959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14844.083792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 14960.574584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 15994.895042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 16114.817459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.1420125663280487
+    },
+    {
+      "t_ms": 16664.55375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 16781.642542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.043478261679410934
+    },
+    {
+      "t_ms": 17335.439209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 17446.994792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 17990.686334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 19548.3035,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0555555559694767
+    },
+    {
+      "t_ms": 20154.668667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 20765.768584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 20881.959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 20997.047125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21105.298875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21215.919584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21325.64975,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21437.274042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21552.614375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21664.374959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21773.347084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 21888.741625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22011.017042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22132.537042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22246.994292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22362.322084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22473.026834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22584.573917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22703.120084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22814.682292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 22928.08175,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 23041.523959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 23155.793459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 23266.335875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 24292.224625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 24404.361625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 24947.311792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 25062.993834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 25612.997584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.06666667014360428
+    },
+    {
+      "t_ms": 25722.307709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 26267.364834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.15000000596046448
+    },
+    {
+      "t_ms": 26379.854334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 26496.734709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 26610.279709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 26722.86275,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 26839.948917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 26955.153334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27071.509417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27185.00025,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27295.951459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27411.505667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27520.75475,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27634.5085,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 27750.5415,
+      "expansion": 0.0,
+      "flow_magnitude": 0.1875
+    },
+    {
+      "t_ms": 27868.375834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.2777777910232544
+    },
+    {
+      "t_ms": 27986.273584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05882352963089943
+    },
+    {
+      "t_ms": 28102.674375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.13333334028720856
+    },
+    {
+      "t_ms": 28214.083417,
+      "expansion": -0.06000000000000005,
+      "flow_magnitude": 0.0625
+    },
+    {
+      "t_ms": 28329.951209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.15000000596046448
+    },
+    {
+      "t_ms": 28449.16375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.31578946113586426
+    },
+    {
+      "t_ms": 28570.150125,
+      "expansion": -0.06000000000000005,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 28686.917542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.13333334028720856
+    },
+    {
+      "t_ms": 28804.462959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.06666667014360428
+    },
+    {
+      "t_ms": 29829.475917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.11764705926179886
+    },
+    {
+      "t_ms": 29942.064,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 30492.598542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 30605.107042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.1111111119389534
+    },
+    {
+      "t_ms": 31157.10825,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 31277.796375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 31824.832875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0883883461356163
+    },
+    {
+      "t_ms": 31940.179917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 32085.193959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 32201.647167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 32312.360625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 32428.876292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 32544.6125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07856741547584534
+    },
+    {
+      "t_ms": 32666.020459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10526315867900848
+    },
+    {
+      "t_ms": 32780.149834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.06734350323677063
+    },
+    {
+      "t_ms": 32902.03975,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33018.088542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.1666666716337204
+    },
+    {
+      "t_ms": 33140.527959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05882352963089943
+    },
+    {
+      "t_ms": 33256.359209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33368.498584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33484.327834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33598.357875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33710.311417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33823.402792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 33937.822917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34046.919334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34163.861834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34279.565834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34391.889042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34507.054875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34615.936917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34737.296667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34847.52025,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 34962.930417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35079.559542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35194.682292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35308.62,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35424.705917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35534.072625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35643.760125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35753.355334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35867.287292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 35978.122417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 36089.32425,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 36203.804167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 36313.153667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 36437.346292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 36554.452584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 36677.911625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 36791.359792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 36903.133917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 37018.440625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 37127.390542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 37242.684375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.08695652335882187
+    },
+    {
+      "t_ms": 37356.343375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.3333333432674408
+    },
+    {
+      "t_ms": 37472.083334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.20000000298023224
+    },
+    {
+      "t_ms": 37589.139917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 37705.373042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.190476194024086
+    },
+    {
+      "t_ms": 37819.115959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 37935.542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38046.852459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38160.948042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38274.300375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38386.636584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38496.743667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38606.825625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 38723.604834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10000000149011612
+    },
+    {
+      "t_ms": 38845.76575,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07443229109048843
+    },
+    {
+      "t_ms": 38953.299292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39062.0495,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39174.205667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39287.872084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39402.142292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39511.383625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39626.038792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39740.326625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39856.444959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 39971.003334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40086.059667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40204.270334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40316.594125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40430.637042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40542.205959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40654.713,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40764.292459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40878.814,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 40991.621167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41104.663417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41213.351417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41332.929334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41450.585792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41561.266042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41672.507709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41785.033875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 41902.450167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42025.871459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42146.549334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42257.203292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42370.872167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42479.898125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42587.450584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42699.495,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42813.115875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 42937.777167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05882352963089943
+    },
+    {
+      "t_ms": 43051.874042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 43167.58375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 43285.054959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 43401.154042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 43509.848459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 43625.687042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 43737.691834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 43844.428209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 43953.771709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44065.773709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44177.987459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44287.565209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44402.47375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44517.006,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44628.602792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44744.824709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44859.271459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 44975.2415,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45087.483834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45196.974459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45306.696209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45425.843709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45536.798834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45646.227417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45762.08425,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45874.680167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 45985.068292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46102.598417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46214.371834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46326.471459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46436.820709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46550.450084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46664.721292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46780.430709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 46893.848709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 47010.698125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 48041.242167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 48159.738417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 48707.260959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07443229109048843
+    },
+    {
+      "t_ms": 48825.065375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07443229109048843
+    },
+    {
+      "t_ms": 49380.107667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 49497.886417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 50045.220959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50165.51825,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50283.45975,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 50395.410959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50509.903959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50622.951542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50737.551,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50852.255959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 50960.97175,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 51074.350042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 51186.568792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 51297.503042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 51413.91975,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 51532.197292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.2631579041481018
+    },
+    {
+      "t_ms": 51651.768209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.22727273404598236
+    },
+    {
+      "t_ms": 51768.066709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.21052631735801697
+    },
+    {
+      "t_ms": 51888.288084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 52004.431167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 52135.279042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.15000000596046448
+    },
+    {
+      "t_ms": 52252.870875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 52370.211917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 52485.777917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 52606.442417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10000000149011612
+    },
+    {
+      "t_ms": 53641.501,
+      "expansion": 0.0,
+      "flow_magnitude": 0.08318903297185898
+    },
+    {
+      "t_ms": 53757.900542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 54307.914334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 54423.463375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.15000000596046448
+    },
+    {
+      "t_ms": 54973.763792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 55089.100375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 55629.340792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 55754.131084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 55867.3265,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 55978.64675,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56087.916042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56200.32475,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56318.430959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56432.578584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56550.814667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 56671.965792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56785.653,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 56908.614167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57020.85875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57136.585,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57252.792875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.09090909361839294
+    },
+    {
+      "t_ms": 57370.011167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57485.255084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57597.256709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57707.788167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57824.439959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 57935.190167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58052.6125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58165.375459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58279.05575,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58395.702667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58508.856292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58618.93275,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58729.1465,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58842.661667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 58956.592209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59072.972,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59184.409167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59295.512584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59409.250209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59521.984875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59634.627209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59750.92675,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59864.0525,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 59975.754875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60086.447042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60199.049292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60312.709459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60426.458667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60539.249584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60644.761167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60756.650417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60870.953625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 60985.251959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61096.796,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61210.108875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61321.070917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61436.636375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61555.669667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61677.72325,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61789.758417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 61903.521459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 62036.062584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 62167.6525,
+      "expansion": 0.15999999999999992,
+      "flow_magnitude": 0.08695652335882187
+    },
+    {
+      "t_ms": 62282.928375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 62402.237459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 62516.476209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 62639.1595,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 62766.397,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 62876.301834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 62985.812917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 63102.219834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 64123.328917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.06666667014360428
+    },
+    {
+      "t_ms": 64241.213625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 64801.32375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 64919.089,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10000000149011612
+    },
+    {
+      "t_ms": 65454.923917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 65574.889375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 66125.155,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 66248.994959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 66367.06575,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 66484.652459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 66600.84125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.043478261679410934
+    },
+    {
+      "t_ms": 66711.9005,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 66828.40825,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 66944.918542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10526315867900848
+    },
+    {
+      "t_ms": 67062.287042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 67179.309,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 67293.075875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 67409.828709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 67534.849084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 67653.804292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 67771.253834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 67885.4345,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 68003.560584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 68125.820084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 68239.816667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 68355.579792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 68473.327792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.13333334028720856
+    },
+    {
+      "t_ms": 68591.040375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 68709.678334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 69732.5965,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07856741547584534
+    },
+    {
+      "t_ms": 69853.346042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 70394.665625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 70514.906834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 71056.236292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 71172.466209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0555555559694767
+    },
+    {
+      "t_ms": 71718.685959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0625
+    },
+    {
+      "t_ms": 71841.202375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.15789473056793213
+    },
+    {
+      "t_ms": 71953.026459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 72100.958709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 72213.709584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 72329.098167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 72450.49575,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 72567.402959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 72681.063292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 72796.579917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 72909.522292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73022.482334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73140.143917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73251.583459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73362.162459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73474.844584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73585.325959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73696.261334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73810.179042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 73925.027792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74039.260584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74149.42975,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74265.927125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74378.798542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74494.443084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74605.052417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74716.590834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74830.039125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 74943.308959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75059.350542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75170.700125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75282.3835,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75392.949542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75507.944334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75629.282625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 75746.674084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 75863.850834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.12071068584918976
+    },
+    {
+      "t_ms": 75987.041167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.08318903297185898
+    },
+    {
+      "t_ms": 76100.616125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 76209.566417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 76327.852375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 76441.243542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 76561.219125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 76675.852875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0555555559694767
+    },
+    {
+      "t_ms": 76792.536834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 76906.384125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77020.304792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77132.26675,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77247.895459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77361.721709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77470.282959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77587.255584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77699.97325,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77808.792334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 77925.184875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78035.088459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78148.818084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78264.401209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78375.709667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78489.853959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78601.001292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78709.471084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78823.495292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 78931.477042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 79043.820667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 79157.512709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 79267.679292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 79386.566584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 79498.733709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 79613.422125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 80641.775167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.15000000596046448
+    },
+    {
+      "t_ms": 80757.653125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 81317.29075,
+      "expansion": 0.0,
+      "flow_magnitude": 0.16180339455604553
+    },
+    {
+      "t_ms": 81435.161667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05882352963089943
+    },
+    {
+      "t_ms": 81989.748584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 82108.705042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0555555559694767
+    },
+    {
+      "t_ms": 82674.029625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 82789.794875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 82912.541375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83022.12375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83134.112542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83250.292875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83364.924417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83472.858417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83584.307667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83697.299167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83819.501959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 83935.241,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 84056.698042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 84171.671667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0476190485060215
+    },
+    {
+      "t_ms": 84288.975667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.095238097012043
+    },
+    {
+      "t_ms": 84401.709292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0555555559694767
+    },
+    {
+      "t_ms": 84519.92075,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 84636.400792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 84752.158542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.1764705926179886
+    },
+    {
+      "t_ms": 84871.544667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.09090909361839294
+    },
+    {
+      "t_ms": 84989.0905,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 85108.451834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 85222.583084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.10496581345796585
+    },
+    {
+      "t_ms": 86255.491,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 86368.23075,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 86911.493709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.07443229109048843
+    },
+    {
+      "t_ms": 87029.002,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 87577.239292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 87690.897959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 88242.466375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0883883461356163
+    },
+    {
+      "t_ms": 88354.407209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 88472.97625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 88586.620375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 88701.010292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 88817.414375,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 88929.396917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89039.001709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89156.81625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89268.356417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89383.740584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89495.636417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89609.107917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89724.838625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89840.141167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 89955.194334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90067.949542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90180.784459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90292.156709,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90404.850667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90516.563292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90627.805334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90737.629667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90853.251584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 90966.296084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91078.716209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91192.316292,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91301.87175,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91412.438417,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91526.309917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91638.254459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91748.747334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91860.557209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 91973.908959,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92106.463042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92220.61425,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92331.025334,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92444.359584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92556.822667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92666.059,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92779.297834,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 92888.918209,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 93001.620042,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 93114.259625,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 93226.752875,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 93337.43125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 93458.245,
+      "expansion": 0.0,
+      "flow_magnitude": 0.04545454680919647
+    },
+    {
+      "t_ms": 93573.910167,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05263157933950424
+    },
+    {
+      "t_ms": 93695.216792,
+      "expansion": 0.0,
+      "flow_magnitude": 0.05000000074505806
+    },
+    {
+      "t_ms": 93813.57275,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 93925.168917,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 94038.869459,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 94150.813125,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 94261.912667,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 94376.335542,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0
+    },
+    {
+      "t_ms": 94493.766584,
+      "expansion": 0.0,
+      "flow_magnitude": 0.0714285746216774
+    },
+    {
+      "t_ms": 94614.919084,
+      "expansion": 0.0,
+      "flow_magnitude": 0.1111111119389534
+    }
+  ],
+  "hotbar": {
+    "F1": "/targetnext",
+    "F2": "Attack",
+    "F3": "Pickup"
+  },
+  "rotation_type": "keyboard_arrow",
+  "walk": true,
+  "target_locked": false,
+  "target_killed": true,
+  "entity_defeated": true,
+  "loot_pickup_sent": true,
+  "loot_actions_sent": 15,
+  "f1_pulses": 27,
+  "f2_pulses": 10,
+  "stuck_keys_count": 0,
+  "watchdog_tripped": false,
+  "ticks": 589,
+  "session_ms": 94616.320167,
+  "steps": [
+    {
+      "step": "integrated_start",
+      "t_ms": 283.526542,
+      "cap": 5,
+      "session_s": null,
+      "farm": false,
+      "walk_ms": 450,
+      "peel_ms": 350,
+      "roam_fail_limit": 15,
+      "self_hp_abort": 0.1
+    },
+    {
+      "step": "self_bars_ok",
+      "t_ms": 1395.177709,
+      "self_hp": 0.9431818181818182
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 1395.212709,
+      "cycle": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 1467.8685,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 2709.5845,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 3948.222584,
+      "cycle": 1,
+      "failed_search": 1
+    },
+    {
+      "step": "arrow",
+      "t_ms": 4431.95825,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 4919.0935,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 5585.252375,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 6252.2215,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 6913.831375,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 6976.530625,
+      "cycle": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 6976.672,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 8203.035875,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 9436.045375,
+      "cycle": 1,
+      "failed_search": 2
+    },
+    {
+      "step": "arrow",
+      "t_ms": 9914.860167,
+      "hid_sent": true,
+      "key": "left_arrow",
+      "duration_ms": 450,
+      "cycle": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 10393.859917,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 11057.942209,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 11725.584709,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 12399.0185,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 12473.281917,
+      "cycle": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 12473.569334,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 13721.003625,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 14961.128792,
+      "cycle": 1,
+      "failed_search": 3
+    },
+    {
+      "step": "arrow",
+      "t_ms": 15448.712875,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 15933.177459,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 16599.460542,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 17268.5095,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 17923.281417,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 4
+    },
+    {
+      "step": "u_turn",
+      "t_ms": 17991.228625,
+      "cycle": 1,
+      "roam_cycles": 3
+    },
+    {
+      "step": "arrow",
+      "t_ms": 18468.133084,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 1,
+      "reason": "u_turn",
+      "pulse": 1
+    },
+    {
+      "step": "arrow",
+      "t_ms": 18948.316,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 1,
+      "reason": "u_turn",
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 19483.420709,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 500,
+      "cycle": 1,
+      "reason": "u_turn",
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 20089.857917,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 500,
+      "cycle": 1,
+      "reason": "u_turn",
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 20696.872125,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 500,
+      "cycle": 1,
+      "reason": "u_turn",
+      "pulse": 3
+    },
+    {
+      "step": "u_turn_done",
+      "t_ms": 20766.142334,
+      "cycle": 1,
+      "u_turns": 1
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 20766.180084,
+      "cycle": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 20766.272,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 22011.793584,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 23266.341834,
+      "cycle": 1,
+      "failed_search": 1
+    },
+    {
+      "step": "arrow",
+      "t_ms": 23748.773209,
+      "hid_sent": true,
+      "key": "left_arrow",
+      "duration_ms": 450,
+      "cycle": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 24228.671417,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 24884.989667,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 25547.430667,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 26201.866917,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 26267.664917,
+      "cycle": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 26267.772584,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 27521.134334,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 28804.996625,
+      "cycle": 1,
+      "failed_search": 2
+    },
+    {
+      "step": "arrow",
+      "t_ms": 29293.3595,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 29765.948834,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 30427.861834,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 31092.797584,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 31760.433959,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 1,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 31825.228834,
+      "cycle": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 31825.33275,
+      "hid_sent": true,
+      "cycle": 1,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "locked",
+      "t_ms": 31940.774042,
+      "cycle": 1,
+      "target_hp": 0.44366197183098594,
+      "attempt": 1
+    },
+    {
+      "step": "COMBAT",
+      "t_ms": 31940.807334,
+      "cycle": 1,
+      "target_hp": 0.44366197183098594
+    },
+    {
+      "step": "F2",
+      "t_ms": 31940.901542,
+      "hid_sent": true,
+      "pulse": 1
+    },
+    {
+      "step": "F2",
+      "t_ms": 32201.733167,
+      "hid_sent": true,
+      "pulse": 2
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 33938.625875,
+      "cycle": 1,
+      "from_hp": 0.44366197183098594,
+      "to_hp": 0.2352112676056338
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 34737.30225,
+      "cycle": 1,
+      "from_hp": 0.2352112676056338,
+      "to_hp": 0.04084507042253521
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 35643.767125,
+      "cycle": 1,
+      "from_hp": 0.04929577464788732,
+      "to_hp": 0.0
+    },
+    {
+      "step": "target_dead",
+      "t_ms": 35643.865584,
+      "cycle": 1,
+      "target_hp": 0.0,
+      "time_to_kill_ms": 3703.056875
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 35643.886084,
+      "cycle": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 36089.824625,
+      "hid_sent": true,
+      "cycle": 1,
+      "tap": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 36555.383542,
+      "hid_sent": true,
+      "cycle": 1,
+      "tap": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 37018.912209,
+      "hid_sent": true,
+      "cycle": 1,
+      "tap": 3
+    },
+    {
+      "step": "frag",
+      "t_ms": 37472.510375,
+      "cycle": 1,
+      "kills_completed": 1,
+      "combat_ms": 3703.078292
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 38047.540792,
+      "cycle": 2
+    },
+    {
+      "step": "F1",
+      "t_ms": 38047.844,
+      "hid_sent": true,
+      "cycle": 2,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "locked",
+      "t_ms": 38387.308625,
+      "cycle": 2,
+      "target_hp": 0.44366197183098594,
+      "attempt": 1
+    },
+    {
+      "step": "COMBAT",
+      "t_ms": 38387.345834,
+      "cycle": 2,
+      "target_hp": 0.44366197183098594
+    },
+    {
+      "step": "F2",
+      "t_ms": 38387.432209,
+      "hid_sent": true,
+      "pulse": 3
+    },
+    {
+      "step": "F2",
+      "t_ms": 38607.505292,
+      "hid_sent": true,
+      "pulse": 4
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 39511.389167,
+      "cycle": 2,
+      "from_hp": 0.44366197183098594,
+      "to_hp": 0.3056338028169014
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 40317.120959,
+      "cycle": 2,
+      "from_hp": 0.3056338028169014,
+      "to_hp": 0.1704225352112676
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 41213.761542,
+      "cycle": 2,
+      "from_hp": 0.176056338028169,
+      "to_hp": 0.023943661971830985
+    },
+    {
+      "step": "target_dead",
+      "t_ms": 42146.558875,
+      "cycle": 2,
+      "target_hp": 0.0,
+      "time_to_kill_ms": 3759.212625
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 42146.591292,
+      "cycle": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 42588.695709,
+      "hid_sent": true,
+      "cycle": 2,
+      "tap": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 43052.6515,
+      "hid_sent": true,
+      "cycle": 2,
+      "tap": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 43510.081792,
+      "hid_sent": true,
+      "cycle": 2,
+      "tap": 3
+    },
+    {
+      "step": "frag",
+      "t_ms": 43954.099167,
+      "cycle": 2,
+      "kills_completed": 2,
+      "combat_ms": 3759.245042
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 44517.539917,
+      "cycle": 3
+    },
+    {
+      "step": "F1",
+      "t_ms": 44517.645917,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 45762.450542,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 47011.058834,
+      "cycle": 3,
+      "failed_search": 1
+    },
+    {
+      "step": "arrow",
+      "t_ms": 47497.762334,
+      "hid_sent": true,
+      "key": "left_arrow",
+      "duration_ms": 450,
+      "cycle": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 47977.777459,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 48641.922042,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 49314.243209,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 49980.857292,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 50045.92475,
+      "cycle": 3
+    },
+    {
+      "step": "F1",
+      "t_ms": 50046.228959,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 51298.07475,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 52606.450792,
+      "cycle": 3,
+      "failed_search": 2
+    },
+    {
+      "step": "arrow",
+      "t_ms": 53095.480125,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 53577.39325,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 54241.124375,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 54909.601417,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 55561.748417,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 3,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 55629.882125,
+      "cycle": 3
+    },
+    {
+      "step": "F1",
+      "t_ms": 55629.996125,
+      "hid_sent": true,
+      "cycle": 3,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "locked",
+      "t_ms": 55978.653042,
+      "cycle": 3,
+      "target_hp": 0.44366197183098594,
+      "attempt": 1
+    },
+    {
+      "step": "COMBAT",
+      "t_ms": 55978.738875,
+      "cycle": 3,
+      "target_hp": 0.44366197183098594
+    },
+    {
+      "step": "F2",
+      "t_ms": 55979.157959,
+      "hid_sent": true,
+      "pulse": 5
+    },
+    {
+      "step": "F2",
+      "t_ms": 56200.702375,
+      "hid_sent": true,
+      "pulse": 6
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 58165.700084,
+      "cycle": 3,
+      "from_hp": 0.44366197183098594,
+      "to_hp": 0.0
+    },
+    {
+      "step": "target_dead",
+      "t_ms": 58165.740125,
+      "cycle": 3,
+      "target_hp": 0.0,
+      "time_to_kill_ms": 2187.001666
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 58165.748667,
+      "cycle": 3
+    },
+    {
+      "step": "F3",
+      "t_ms": 58620.018125,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 59073.424959,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 59522.553542,
+      "hid_sent": true,
+      "cycle": 3,
+      "tap": 3
+    },
+    {
+      "step": "frag",
+      "t_ms": 59976.644667,
+      "cycle": 3,
+      "kills_completed": 3,
+      "combat_ms": 2187.01025
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 60539.788,
+      "cycle": 4
+    },
+    {
+      "step": "F1",
+      "t_ms": 60539.892459,
+      "hid_sent": true,
+      "cycle": 4,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 61790.401917,
+      "hid_sent": true,
+      "cycle": 4,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 63102.722167,
+      "cycle": 4,
+      "failed_search": 1
+    },
+    {
+      "step": "arrow",
+      "t_ms": 63576.998292,
+      "hid_sent": true,
+      "key": "left_arrow",
+      "duration_ms": 450,
+      "cycle": 4
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 64057.286584,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 4,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 64734.003709,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 4,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 65389.292167,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 4,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 66055.921792,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 4,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 66125.714292,
+      "cycle": 4
+    },
+    {
+      "step": "F1",
+      "t_ms": 66125.826375,
+      "hid_sent": true,
+      "cycle": 4,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 67410.505459,
+      "hid_sent": true,
+      "cycle": 4,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 68709.684667,
+      "cycle": 4,
+      "failed_search": 2
+    },
+    {
+      "step": "arrow",
+      "t_ms": 69183.278667,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 4
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 69665.085,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 4,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 70331.469,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 4,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 70989.801542,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 4,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 71654.907209,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 4,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 71719.217875,
+      "cycle": 4
+    },
+    {
+      "step": "F1",
+      "t_ms": 71719.334375,
+      "hid_sent": true,
+      "cycle": 4,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "locked",
+      "t_ms": 72100.966375,
+      "cycle": 4,
+      "target_hp": 0.44366197183098594,
+      "attempt": 1
+    },
+    {
+      "step": "COMBAT",
+      "t_ms": 72101.01275,
+      "cycle": 4,
+      "target_hp": 0.44366197183098594
+    },
+    {
+      "step": "F2",
+      "t_ms": 72101.189334,
+      "hid_sent": true,
+      "pulse": 7
+    },
+    {
+      "step": "F2",
+      "t_ms": 72329.180792,
+      "hid_sent": true,
+      "pulse": 8
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 73140.152625,
+      "cycle": 4,
+      "from_hp": 0.44366197183098594,
+      "to_hp": 0.29295774647887324
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 74039.753959,
+      "cycle": 4,
+      "from_hp": 0.29859154929577464,
+      "to_hp": 0.14366197183098592
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 74943.606,
+      "cycle": 4,
+      "from_hp": 0.14366197183098592,
+      "to_hp": 0.0
+    },
+    {
+      "step": "target_dead",
+      "t_ms": 74943.637834,
+      "cycle": 4,
+      "target_hp": 0.0,
+      "time_to_kill_ms": 2842.625333
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 74943.646875,
+      "cycle": 4
+    },
+    {
+      "step": "F3",
+      "t_ms": 75393.657625,
+      "hid_sent": true,
+      "cycle": 4,
+      "tap": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 75747.196209,
+      "hid_sent": true,
+      "cycle": 4,
+      "tap": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 76101.079542,
+      "hid_sent": true,
+      "cycle": 4,
+      "tap": 3
+    },
+    {
+      "step": "frag",
+      "t_ms": 76561.545417,
+      "cycle": 4,
+      "kills_completed": 4,
+      "combat_ms": 2842.634292
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 77132.273959,
+      "cycle": 5
+    },
+    {
+      "step": "F1",
+      "t_ms": 77132.717292,
+      "hid_sent": true,
+      "cycle": 5,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 78376.099625,
+      "hid_sent": true,
+      "cycle": 5,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 79613.429,
+      "cycle": 5,
+      "failed_search": 1
+    },
+    {
+      "step": "arrow",
+      "t_ms": 80092.06375,
+      "hid_sent": true,
+      "key": "left_arrow",
+      "duration_ms": 450,
+      "cycle": 5
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 80578.236917,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 5,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 81248.994292,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 5,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 81918.332292,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 5,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 82590.56625,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 5,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 82674.6845,
+      "cycle": 5
+    },
+    {
+      "step": "F1",
+      "t_ms": 82674.797667,
+      "hid_sent": true,
+      "cycle": 5,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "F1",
+      "t_ms": 83935.841459,
+      "hid_sent": true,
+      "cycle": 5,
+      "phase": "SCAN",
+      "attempt": 2
+    },
+    {
+      "step": "ROAM_SEARCH",
+      "t_ms": 85222.920375,
+      "cycle": 5,
+      "failed_search": 2
+    },
+    {
+      "step": "arrow",
+      "t_ms": 85707.126584,
+      "hid_sent": true,
+      "key": "right_arrow",
+      "duration_ms": 450,
+      "cycle": 5
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 86191.599167,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 5,
+      "pulse": 1
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 86847.62125,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 5,
+      "pulse": 2
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 87509.378667,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 5,
+      "pulse": 3
+    },
+    {
+      "step": "HoldKey",
+      "t_ms": 88175.440792,
+      "key": "w",
+      "hid_sent": true,
+      "duration_ms": 450,
+      "cycle": 5,
+      "pulse": 4
+    },
+    {
+      "step": "SCAN",
+      "t_ms": 88243.024542,
+      "cycle": 5
+    },
+    {
+      "step": "F1",
+      "t_ms": 88243.140792,
+      "hid_sent": true,
+      "cycle": 5,
+      "phase": "SCAN",
+      "attempt": 1
+    },
+    {
+      "step": "locked",
+      "t_ms": 88473.534959,
+      "cycle": 5,
+      "target_hp": 0.44366197183098594,
+      "attempt": 1
+    },
+    {
+      "step": "COMBAT",
+      "t_ms": 88473.574834,
+      "cycle": 5,
+      "target_hp": 0.44366197183098594
+    },
+    {
+      "step": "F2",
+      "t_ms": 88473.675667,
+      "hid_sent": true,
+      "pulse": 9
+    },
+    {
+      "step": "F2",
+      "t_ms": 88701.216209,
+      "hid_sent": true,
+      "pulse": 10
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 89269.038,
+      "cycle": 5,
+      "from_hp": 0.44366197183098594,
+      "to_hp": 0.3084507042253521
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 90181.302,
+      "cycle": 5,
+      "from_hp": 0.31408450704225355,
+      "to_hp": 0.17887323943661973
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 91078.721792,
+      "cycle": 5,
+      "from_hp": 0.17887323943661973,
+      "to_hp": 0.04084507042253521
+    },
+    {
+      "step": "hp_delta",
+      "t_ms": 92779.895459,
+      "cycle": 5,
+      "from_hp": 0.04084507042253521,
+      "to_hp": 0.0
+    },
+    {
+      "step": "target_dead",
+      "t_ms": 92779.931667,
+      "cycle": 5,
+      "target_hp": 0.0,
+      "time_to_kill_ms": 4306.356666
+    },
+    {
+      "step": "LOOT",
+      "t_ms": 92779.939042,
+      "cycle": 5
+    },
+    {
+      "step": "F3",
+      "t_ms": 93227.57425,
+      "hid_sent": true,
+      "cycle": 5,
+      "tap": 1
+    },
+    {
+      "step": "F3",
+      "t_ms": 93695.853917,
+      "hid_sent": true,
+      "cycle": 5,
+      "tap": 2
+    },
+    {
+      "step": "F3",
+      "t_ms": 94151.7145,
+      "hid_sent": true,
+      "cycle": 5,
+      "tap": 3
+    },
+    {
+      "step": "frag",
+      "t_ms": 94615.391834,
+      "cycle": 5,
+      "kills_completed": 5,
+      "combat_ms": 4306.364
+    },
+    {
+      "step": "SUCCESS",
+      "t_ms": 94615.443167,
+      "kills_completed": 5,
+      "roam_cycles": 11,
+      "farm": false,
+      "aggro_interrupts": 0,
+      "l1_triggers": 0,
+      "u_turns_executed": 1
+    }
+  ],
+  "events": [
+    {
+      "timestamp_ns": 358289708153458,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358291022374875,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358292261169375,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358292744786708,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358292744912375,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358293231762083,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358293418235250,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358293898074125,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358294079213666,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358294565044708,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358294747807916,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358295226304041,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358295289496500,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358296515832416,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358297748997625,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358298227694958,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358298227814416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358298706684750,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358298894071916,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358299370791083,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358299553115791,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358300038423708,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358300225656750,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358300711583041,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358300786258083,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358302033835583,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358303274079291,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358303761479833,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358303761681083,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358304245819125,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358304428186625,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358304912300458,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358305095013000,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358305581341208,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358305760369416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358306236120333,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358306304188000,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358306780970708,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358306781084958,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358307261136041,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358307261269750,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 500,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358307796260458,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358307861574333,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 500,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358308402703916,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358308468092333,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 500,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358309009721833,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358309079105541,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358310324447791,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358311579316416,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358312061600666,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358312061725833,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358312541509750,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358312717718791,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358313197808541,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358313376285416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358313860276000,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358314035721041,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358314514705375,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358314580610750,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358315833963541,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358317117942750,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358317606169208,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358317606317541,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358318078790541,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358318255286375,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358318740703083,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358318918452416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358319405631958,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358319591257083,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358320073253666,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358320138172416,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358320253732833,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358320514572916,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358324402246166,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358324868183083,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358325331738000,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358325785330583,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358325785401958,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358326360541041,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358326700273083,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358326920333000,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358330901360958,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358331365497000,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358331822770541,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358332266697833,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358332266934000,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358332830489208,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358334075288083,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358335324006458,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358335810574625,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358335810722583,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358336289446041,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358336473193375,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358336954761583,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358337138455500,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358337627080791,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358337811091416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358338293471416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358338358932958,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358339610837125,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358340919394208,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358341408029250,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358341408431000,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358341890013250,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358342070827875,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358342553969958,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358342737044041,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358343222431125,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358343402459666,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358343874574541,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358343942829916,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358344291732958,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358344513546166,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358346932231291,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358347386270416,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358347835398666,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358348289442125,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358348289531833,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358348852733291,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358350103239250,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358351415668708,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358351889833125,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358351889948916,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358352369840458,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358352554598166,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358353046844666,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358353232492416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358353702132083,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358353887812875,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358354368752041,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358354438659958,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358355723336333,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358357023594875,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358357495695000,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358357496230333,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358357977596000,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358358167038000,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358358644291416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358358827831208,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358359302621541,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358359485865416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358359967749791,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358360032165291,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358360413950083,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358360642022875,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358363706161541,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358364060037625,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358364413921416,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358364874139875,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358364874331500,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358365445271708,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358366688938541,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358367926422000,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358368404902375,
+      "action_type": "HoldKey",
+      "key": "left_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358368405011500,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358368890876125,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358369070868250,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358369561839875,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358369748714750,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358370231165916,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358370421627541,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358370903400875,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358370987631333,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358372248682041,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358373535877750,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358374019692250,
+      "action_type": "HoldKey",
+      "key": "right_arrow",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358374020079708,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358374504242375,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358374681547041,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358375160460000,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358375342327958,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358375822184708,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358376004105500,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 450,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358376488263416,
+      "action_type": "HoldKey",
+      "key": "w",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358376555973166,
+      "action_type": "TargetSelect",
+      "key": "next_hotkey",
+      "button": null,
+      "hold_duration_ms": null,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358376786501416,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358377013931541,
+      "action_type": "SkillActivate",
+      "key": "F2",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358381540206083,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358382008686750,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358382464558250,
+      "action_type": "SkillActivate",
+      "key": "F3",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358382928211416,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358382928283208,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 358382928848250,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    }
+  ],
+  "start_self_hp": 0.9431818181818182,
+  "observe": {
+    "n": 589.0,
+    "p50": 1.7362909857183695,
+    "p90": 2.4717500200495124,
+    "p95": 3.232792019844055,
+    "p99": 4.26179199712351,
+    "max": 15.240250038914382
+  },
+  "parse": {
+    "n": 589.0,
+    "p50": 13.045125000644475,
+    "p90": 14.472791983280331,
+    "p95": 14.985541987698525,
+    "p99": 16.303209005855024,
+    "max": 26.762916997540742
+  },
+  "encode": {
+    "n": 589.0,
+    "p50": 44.59708399372175,
+    "p90": 50.980707979761064,
+    "p95": 53.228584001772106,
+    "p99": 57.67545796697959,
+    "max": 64.44375001592562
+  },
+  "infer": {
+    "n": 16.0,
+    "p50": 0.00029098009690642357,
+    "p90": 0.00037497375160455704,
+    "p95": 0.00037497375160455704,
+    "p99": 0.0007500057108700275,
+    "max": 0.0007500057108700275
+  },
+  "act": {
+    "n": 65.0,
+    "p50": 0.09358301758766174,
+    "p90": 482.3734170058742,
+    "p95": 486.66979098925367,
+    "p99": 488.33008302608505,
+    "max": 489.0017499565147
+  },
+  "e2e_p95_ms": 558.11708397232,
+  "total_session_ms": 94616.320167,
+  "final_hp": null,
+  "out": "docs/evidence/live-s4/spot-aggro-validation.json"
+}

@@ -1,0 +1,501 @@
+--- before/src/l2_brain/control/baseline.py
++++ after/src/l2_brain/control/baseline.py
+@@ -61,7 +61,7 @@
+         self._prev_mass = 0.0
+         self._hold_age = 0
+         self._stall = 0
+-        self.memory = ShortTermMemory()
++        self.memory = ShortTermMemory(attempts=deque(maxlen=self._config.attempt_memory))
+         self.last_diag: ControlDiagnostics | None = None
+ 
+     def initialize(self) -> None:
+@@ -74,7 +74,7 @@
+         self._prev_mass = 0.0
+         self._hold_age = 0
+         self._stall = 0
+-        self.memory = ShortTermMemory()
++        self.memory = ShortTermMemory(attempts=deque(maxlen=self._config.attempt_memory))
+         self.last_diag = None
+ 
+     def reset_weights(self) -> None:
+@@ -87,6 +87,9 @@
+         until = now_ns + intent_ttl_ns
+         cfg = self._config
+         if observation.validity_mask.stale or not observation.validity_mask.frame:
++            # Stop actuators, but account for the preceding command and elapsed
++            # unobserved control interval instead of freezing belief forever.
++            self._bearing(observation, cfg)
+             diag = ControlDiagnostics(
+                 attract_turn=0.0,
+                 avoid_turn=0.0,
+@@ -214,12 +217,11 @@
+         return self.memory.side
+ 
+     def _bearing(self, observation: Observation, cfg: BaselineConfig) -> tuple[float, float]:
+-        if observation.validity_mask.stale or not observation.validity_mask.frame:
+-            return self.memory.last_bearing, self.memory.last_bearing_conf
+         conf = float(observation.target_confidence)
+         raw = observation.target_bearing
+         last = observation.previous_action
+-        if conf >= cfg.target_min_conf and raw is not None:
++        valid = observation.validity_mask.frame and not observation.validity_mask.stale and observation.validity_mask.target
++        if valid and conf >= cfg.target_min_conf and raw is not None:
+             norm = float(max(-1.0, min(1.0, raw / (0.5 * cfg.fov_rad))))
+             self.memory.last_bearing = norm
+             self.memory.last_bearing_conf = conf
+@@ -242,6 +244,8 @@
+             return
+         if mem.cooldown > 0:
+             mem.cooldown -= 1
++            if mem.cooldown == 0:
++                mem.consecutive_failures = 0
+             return
+         if mem.situation == "goal_like" and mem.recovering:
+             finish_recovery(mem, failed=False)
+@@ -253,7 +257,7 @@
+                 return
+             if mem.recover_age >= cfg.recovery_hold_ticks:
+                 failed = mem.progress_conf < cfg.stall_progress
+-                failed_n = sum(1 for item in (mem.attempts or ()) if item.failed) + int(failed)
++                failed_n = mem.consecutive_failures + int(failed)
+                 if failed and failed_n >= cfg.recover_max_retries:
+                     finish_recovery(mem, failed=True, cooldown=cfg.recover_cooldown_ticks)
+                     return
+@@ -261,7 +265,7 @@
+                 if failed:
+                     start_recovery(mem, cfg)
+             return
+-        failed_n = sum(1 for item in (mem.attempts or ()) if item.failed)
++        failed_n = mem.consecutive_failures
+         if mem.situation == "blocked" and failed_n < cfg.recover_max_retries:
+             start_recovery(mem, cfg)
+ 
+--- before/src/l2_brain/control/config.py
++++ after/src/l2_brain/control/config.py
+@@ -67,6 +67,8 @@
+             raise ValueError("cruise must be in [0, 1]")
+         if self.evidence_min_ticks < 2 or self.recovery_hold_ticks < 2:
+             raise ValueError("recovery windows too short")
++        if self.attempt_memory < 1 or self.recover_max_retries < 1 or self.recover_cooldown_ticks < 1:
++            raise ValueError("attempt memory, retry limit and cooldown must be positive")
+ 
+     def to_dict(self) -> dict[str, Any]:
+         return asdict(self)
+--- before/src/l2_brain/control/diag_abc.py
++++ after/src/l2_brain/control/diag_abc.py
+@@ -10,23 +10,16 @@
+ from l2_brain.control.eval import _goal_rel, run_episode
+ from l2_brain.sim.config import EpisodeSpec
+ from l2_brain.sim.environment import SimulationEnvironment
+-from l2_brain.sim.observability import goal_in_fov, goal_los
++from l2_brain.sim.observability import goal_observable
+ from l2_brain.sim.views import GroundTruth
+ from l2_brain.vision.encoder import NavigationEncoder
+ 
+ 
+-def _boxes(gt: GroundTruth):
+-    from l2_brain.sim.world import Box
+-
+-    return tuple(Box(*w) for w in gt.walls)
+-
+-
+ def apply_privileged(obs: Observation, gt: GroundTruth, fov_h: float) -> Observation:
+-    x, y = gt.agent_xy
+-    gx, gy = gt.goal_xy
+-    if not gt.goal_visible or not goal_in_fov(x, y, gt.camera_yaw, gx, gy, fov_h) or not goal_los(x, y, gx, gy, _boxes(gt)):
+-        return replace(obs, target_bearing=None, target_confidence=0.0)
+-    return replace(obs, target_bearing=float(-_goal_rel(gt)), target_confidence=1.0)
++    visible = obs.validity_mask.frame and not obs.validity_mask.stale and goal_observable(gt, fov_h)
++    return replace(obs, target_bearing=float(-_goal_rel(gt)) if visible else None,
++                   target_confidence=1.0 if visible else 0.0,
++                   validity_mask=replace(obs.validity_mask, target=visible))
+ 
+ 
+ class OracleSeek:
+@@ -116,7 +109,7 @@
+         ctl.reset_state()
+     view = env.reset_episode(spec)
+     prev = None
+-    truths = []
++    truths = [env._truth(contact=False, dropped=view.dropped, delayed=False)]
+     diags = []
+     encodes = []
+     infers = []
+@@ -143,6 +136,8 @@
+             gt_now = env._truth(contact=False, dropped=stale, delayed=False)
+             if privileged:
+                 obs = apply_privileged(obs, gt_now, spec.config.fov_h)
++            _vision_sample(obs, gt_now, spec.config.fov_h, confs, bearing_errs)
++            misses, in_fov = _count_vision(obs, gt_now, spec.config.fov_h, misses, in_fov)
+             t1 = mono_ns()
+             intent = ctl.step(obs, now, 100_000_000)
+             infers.append((mono_ns() - t1) / 1_000_000.0)
+@@ -160,18 +155,20 @@
+                     "y": gt.agent_xy[1],
+                     "contact": gt.obstacle_contact,
+                     "cmd_forward": intent.forward,
++                    "applied_forward": (0.0 if env.last_applied_intent.stop == "fire"
++                                        else env.last_applied_intent.forward),
++                    "previous_x": gt_now.agent_xy[0],
++                    "previous_y": gt_now.agent_xy[1],
+                     "recovering": bool(getattr(diag, "recovering", False)),
+                     "situation": getattr(diag, "situation", "move"),
+                     "evidence": getattr(diag, "no_progress_evidence", 0.0),
+                     "reason": getattr(diag, "reason", "seek"),
+-                    "goal_visible": gt.goal_visible,
+-                    "in_fov": bool(gt.goal_visible and abs(_goal_rel(gt)) <= 0.5 * spec.config.fov_h),
+-                    "dropped": gt.dropped_frame,
++                    "goal_visible": gt_now.goal_visible,
++                    "in_fov": goal_observable(gt_now, spec.config.fov_h),
++                    "dropped": gt_now.dropped_frame,
+                     "stale": stale,
+                 }
+             )
+-            _vision_sample(obs, gt, spec.config.fov_h, confs, bearing_errs)
+-            misses, in_fov = _count_vision(obs, gt, spec.config.fov_h, misses, in_fov)
+             prev = Observation(
+                 timestamp_ns=obs.timestamp_ns,
+                 frame_id=obs.frame_id,
+--- before/src/l2_brain/control/eval.py
++++ after/src/l2_brain/control/eval.py
+@@ -16,6 +16,7 @@
+ from l2_brain.experiment.identity import code_identity
+ from l2_brain.sim.config import EpisodeSpec, SimConfig, catalog
+ from l2_brain.sim.environment import SimulationEnvironment
++from l2_brain.sim.observability import goal_observable
+ from l2_brain.sim.views import EpisodeResult, GroundTruth
+ from l2_brain.sim.world import wrap
+ from l2_brain.factory import build_encoder
+@@ -44,7 +45,7 @@
+     path_length: float
+     net_displacement: float
+     ticks: int
+-    vision_miss_rate: float
++    vision_miss_rate: float | None
+     bearing_err_rad_p50: float | None
+     mean_risk: float
+     mean_progress: float
+@@ -86,8 +87,9 @@
+         enc.reset_episode(spec.seed)
+     ctl.reset_state()
+     view = env.reset_episode(spec)
++    frame_gt = env._truth(contact=False, dropped=view.dropped, delayed=False)
+     prev: Observation | None = None
+-    truths: list[GroundTruth] = []
++    truths: list[GroundTruth] = [frame_gt]
+     diags: list[ControlDiagnostics] = []
+     encodes: list[float] = []
+     infers: list[float] = []
+@@ -108,6 +110,9 @@
+             t0 = mono_ns()
+             obs = enc.encode(view.frame, (), prev, now, stale)
+             encodes.append((mono_ns() - t0) / 1_000_000.0)
++            _vision_sample(obs, frame_gt, spec.config.fov_h, confs, bearing_errs)
++            misses, in_fov = _count_vision(obs, frame_gt, spec.config.fov_h, misses, in_fov,
++                                           min_conf=(config or BaselineConfig()).target_min_conf)
+             t1 = mono_ns()
+             intent = ctl.step(obs, now, 100_000_000)
+             infers.append((mono_ns() - t1) / 1_000_000.0)
+@@ -124,18 +129,21 @@
+                     "y": gt.agent_xy[1],
+                     "contact": gt.obstacle_contact,
+                     "cmd_forward": intent.forward,
++                    "applied_forward": (0.0 if env.last_applied_intent.stop == "fire"
++                                        else env.last_applied_intent.forward),
++                    "previous_x": frame_gt.agent_xy[0],
++                    "previous_y": frame_gt.agent_xy[1],
+                     "recovering": bool(ctl.last_diag.recovering) if ctl.last_diag else False,
+                     "situation": ctl.last_diag.situation if ctl.last_diag else "move",
+                     "evidence": ctl.last_diag.no_progress_evidence if ctl.last_diag else 0.0,
+                     "reason": ctl.last_diag.reason if ctl.last_diag else "seek",
+-                    "goal_visible": gt.goal_visible,
+-                    "in_fov": bool(gt.goal_visible and abs(_goal_rel(gt)) <= 0.5 * spec.config.fov_h),
+-                    "dropped": gt.dropped_frame,
++                    "goal_visible": frame_gt.goal_visible,
++                    "in_fov": goal_observable(frame_gt, spec.config.fov_h),
++                    "dropped": frame_gt.dropped_frame,
+                     "stale": stale,
+                 }
+             )
+-            _vision_sample(obs, gt, spec.config.fov_h, confs, bearing_errs)
+-            misses, in_fov = _count_vision(obs, gt, spec.config.fov_h, misses, in_fov)
++            frame_gt = gt
+             prev = Observation(
+                 timestamp_ns=obs.timestamp_ns,
+                 frame_id=obs.frame_id,
+@@ -216,6 +224,9 @@
+         "controller": extras.get("controller") if extras and extras.get("controller") else "baseline_memory_v1",
+         "encoder": "navigation_v1",
+         "learned": False,
++        "metrics_version": "repair-20260917",
++        "recovery_time_unit": "seconds",
++        "visibility_model": "target centre LOS/FOV; not pixel-perfect visibility",
+         "transfer_claim": False,
+         "limitation": TRANSFER,
+         "code": code_identity(),
+@@ -335,7 +346,7 @@
+         path_length=result.path_length,
+         net_displacement=net,
+         ticks=result.ticks,
+-        vision_miss_rate=(misses / in_fov) if in_fov else 0.0,
++        vision_miss_rate=rate_or_na(misses, in_fov),
+         bearing_err_rad_p50=_median(bearing_errs) if bearing_errs else None,
+         mean_risk=float(np.mean([d.risk for d in diags])) if diags else 0.0,
+         mean_progress=float(np.mean([d.progress for d in diags])) if diags else 0.0,
+@@ -366,35 +377,36 @@
+         i for i, row in enumerate(traces) if row.get("situation") == "blocked" and (i == 0 or traces[i - 1].get("situation") != "blocked")
+     ]
+     detect_starts = sorted(set(detect_starts))
++    # One detection can match one GT event only. A late detection within a long
++    # blockage is valid; unmatched detections are false positives even at rest.
++    tolerance = ticks_for(PHYSICAL_BLOCK_S, tick_hz)
++    used: set[int] = set()
+     true_pos = 0
+-    used: set[int] = set()
+-    for start, _end in windows:
+-        for tick in detect_starts:
+-            if abs(tick - start) <= 8 and start not in used:
+-                true_pos += 1
+-                used.add(start)
+-                break
+-    false_pos = 0
+     for tick in detect_starts:
+-        if _progressing(traces, tick) and not any(abs(tick - start) <= 8 for start, _end in windows):
+-            false_pos += 1
++        candidates = [(i, end) for i, (start, end) in enumerate(windows)
++                      if i not in used and start <= tick <= end + tolerance]
++        if candidates:
++            index, _ = min(candidates, key=lambda pair: pair[1])
++            used.add(index)
++            true_pos += 1
++    false_pos = len(detect_starts) - true_pos
+     recover_starts = _rising(traces, "recovering")
+     successes = 0
+     times: list[float] = []
+     for start in recover_starts:
+-        dt = _recovery_delay(traces, start)
++        dt = _recovery_delay(traces, start, horizon=ticks_for(2.0, tick_hz))
+         if dt is not None:
+             successes += 1
+-            times.append(float(dt))
++            times.append(float(dt) / tick_hz)
+     retraps = 0
+     if successes and len(windows) >= 2:
+         first_success = None
+         for start in recover_starts:
+-            if _recovery_delay(traces, start) is not None:
++            if _recovery_delay(traces, start, horizon=ticks_for(2.0, tick_hz)) is not None:
+                 first_success = start
+                 break
+         if first_success is not None:
+-            retraps = sum(1 for start, _end in windows if start > first_success + 8)
++            retraps = sum(1 for start, _end in windows if start > first_success + tolerance)
+     return {
+         "gt_stuck_windows": len(windows),
+         "detections": len(detect_starts),
+@@ -403,6 +415,7 @@
+         "recoveries": len(recover_starts),
+         "recovery_successes": successes,
+         "recovery_time_p50": _median(times) if times else None,
++        "recovery_time_unit": "seconds",
+         "retraps": retraps,
+     }
+ 
+@@ -436,24 +449,9 @@
+ 
+ 
+ def _gt_stuck_windows(traces: list[dict[str, Any]], *, min_len: int = 8) -> list[tuple[int, int]]:
+-    flags: list[bool] = []
+-    for i, row in enumerate(traces):
+-        moved = 1.0
+-        if i > 0:
+-            moved = math.hypot(row["x"] - traces[i - 1]["x"], row["y"] - traces[i - 1]["y"])
+-        flags.append(row["cmd_forward"] >= 0.2 and moved < 0.025 and row["dist"] > 0.8)
+-    windows: list[tuple[int, int]] = []
+-    start: int | None = None
+-    for i, flag in enumerate(flags):
+-        if flag and start is None:
+-            start = i
+-        if not flag and start is not None:
+-            if i - start >= min_len:
+-                windows.append((start, i - 1))
+-            start = None
+-    if start is not None and len(flags) - start >= min_len:
+-        windows.append((start, len(flags) - 1))
+-    return windows
++    from l2_brain.control.events import _gt_block_flags, _windows
++
++    return _windows(_gt_block_flags(traces), min_len)
+ 
+ 
+ def _rising(traces: list[dict[str, Any]], key: str) -> list[int]:
+@@ -529,6 +527,9 @@
+         return "none"
+     if stale_ticks >= max(3, result.ticks // 4) and not result.success:
+         return "stale"
++    if in_fov == 0:
++        # No observable target samples: cannot establish a detector failure.
++        return "mixed"
+     miss_rate = (misses / in_fov) if in_fov else 1.0
+     err = _median(bearing_errs) if bearing_errs else None
+     vision = miss_rate > 0.40 or (err is not None and err > 0.35)
+@@ -552,11 +553,11 @@
+     fov_h: float,
+     misses: int,
+     in_fov: int,
++    *, min_conf: float = 0.12,
+ ) -> tuple[int, int]:
+-    rel = _goal_rel(gt)
+-    if gt.goal_visible and abs(rel) <= 0.5 * fov_h:
++    if not obs.validity_mask.stale and obs.validity_mask.frame and goal_observable(gt, fov_h):
+         in_fov += 1
+-        if obs.target_confidence < 0.12:
++        if not obs.validity_mask.target or obs.target_bearing is None or obs.target_confidence < min_conf:
+             misses += 1
+     return misses, in_fov
+ 
+@@ -570,7 +571,8 @@
+ ) -> None:
+     confs.append(obs.target_confidence)
+     rel = _goal_rel(gt)
+-    if gt.goal_visible and abs(rel) <= 0.5 * fov_h and obs.target_bearing is not None:
++    if (not obs.validity_mask.stale and obs.validity_mask.frame and obs.validity_mask.target
++            and goal_observable(gt, fov_h) and obs.target_bearing is not None):
+         image_bearing = -rel
+         bearing_errs.append(abs(obs.target_bearing - image_bearing))
+ 
+--- before/src/l2_brain/control/events.py
++++ after/src/l2_brain/control/events.py
+@@ -94,10 +94,12 @@
+     flags: list[bool] = []
+     for i, row in enumerate(traces):
+         moved = 1.0
+-        if i > 0:
++        if "previous_x" in row and "previous_y" in row:
++            moved = math.hypot(row["x"] - row["previous_x"], row["y"] - row["previous_y"])
++        elif i > 0:
+             moved = math.hypot(row["x"] - traces[i - 1]["x"], row["y"] - traces[i - 1]["y"])
+         flags.append(
+-            float(row.get("cmd_forward", 0.0)) >= CMD_FORWARD_MIN
++            float(row.get("applied_forward", row.get("cmd_forward", 0.0))) >= CMD_FORWARD_MIN
+             and moved < POSE_MOVE_MAX
+             and float(row.get("dist", 1.0)) > 0.8
+         )
+--- before/src/l2_brain/control/memory.py
++++ after/src/l2_brain/control/memory.py
+@@ -39,6 +39,7 @@
+     recover_age: int = 0
+     recover_sign: float = 0.0
+     cooldown: int = 0
++    consecutive_failures: int = 0
+     attempts: deque[RecoveryAttempt] | None = None
+ 
+     def __post_init__(self) -> None:
+@@ -59,6 +60,7 @@
+             "recover_age": self.recover_age,
+             "recover_sign": self.recover_sign,
+             "cooldown": self.cooldown,
++            "consecutive_failures": self.consecutive_failures,
+             "attempts": [item.to_dict() for item in (self.attempts or ())],
+         }
+ 
+@@ -196,6 +198,7 @@
+         )
+     memory.recovering = False
+     memory.recover_age = 0
++    memory.consecutive_failures = memory.consecutive_failures + 1 if failed else 0
+     if not failed:
+         memory.no_progress_evidence = 0.0
+         memory.evidence_age = 0
+--- before/src/l2_brain/sim/environment.py
++++ after/src/l2_brain/sim/environment.py
+@@ -34,6 +34,7 @@
+         self._walls: tuple[Box, ...] = ()
+         self._goal_visible = True
+         self._pending: deque[MotorIntent] = deque()
++        self.last_applied_intent = _zero_intent(0)
+         self._last_image = None
+         self._path = 0.0
+         self._collisions = 0
+@@ -65,6 +66,7 @@
+         self._walls = layout.walls
+         self._goal_visible = True
+         self._pending.clear()
++        self.last_applied_intent = _zero_intent(0)
+         self._path = 0.0
+         self._collisions = 0
+         self._contacts = 0
+@@ -88,6 +90,7 @@
+         else:
+             applied = self._pending.popleft()
+             delayed = delay > 0
++        self.last_applied_intent = applied
+         contact = self._integrate(applied)
+         self._tick += 1
+         if self._layout.hide_goal_after is not None and self._tick >= self._layout.hide_goal_after:
+--- before/src/l2_brain/sim/observability.py
++++ after/src/l2_brain/sim/observability.py
+@@ -7,6 +7,7 @@
+ 
+ from l2_brain.sim.config import EpisodeSpec, catalog
+ from l2_brain.sim.environment import SimulationEnvironment
++from l2_brain.sim.views import GroundTruth
+ from l2_brain.sim.world import Box, ray_aabb_xy, wrap
+ 
+ TaskClass = Literal[
+@@ -41,6 +42,15 @@
+ 
+ def goal_in_fov(x: float, y: float, yaw: float, gx: float, gy: float, fov_h: float) -> bool:
+     return abs(wrap(math.atan2(gy - y, gx - x) - yaw)) <= 0.5 * fov_h
++
++
++def goal_observable(gt: GroundTruth, fov_h: float) -> bool:
++    """Evaluator-only centre LOS/FOV approximation, not pixel segmentation."""
++    return (
++        gt.goal_visible and not gt.dropped_frame
++        and goal_in_fov(*gt.agent_xy, gt.camera_yaw, *gt.goal_xy, fov_h)
++        and goal_los(*gt.agent_xy, *gt.goal_xy, tuple(Box(*box) for box in gt.walls))
++    )
+ 
+ 
+ def look_around_visible(spec: EpisodeSpec, *, n_yaw: int = 16) -> dict[str, Any]:
+--- before/src/l2_brain/vision/encoder.py
++++ after/src/l2_brain/vision/encoder.py
+@@ -2,6 +2,7 @@
+ 
+ import numpy as np
+ 
++from l2_brain.capture.masks import apply_profile
+ from l2_brain.contracts import EncodedVisual, Frame, Observation, TelemetryEvent, ValidityMask
+ from l2_brain.experiment.clocks import mono_ns
+ from l2_brain.features import extract_from_image
+@@ -52,9 +53,16 @@
+             raise ValueError("encoder needs an in-memory image")
+         started = mono_ns()
+         profile = self.config.profile
+-        gray = prepare(frame.image, self.config, profile)
++        # All visual channels share the same ROI/masks, including target detection.
++        work = apply_profile(frame.image, profile) if profile is not None else frame.image
++        gray = prepare(work, self.config, None)
+         gray01 = normalize_01(gray)
+-        blob = extract_from_image(frame.image)
++        blob = extract_from_image(work)
++        if stale:
++            # A missing image is not a temporal reference. Resume with a fresh
++            # baseline; do not interpret a multi-tick gap as one tick of flow.
++            self._prev_gray = None
++            self._prev_id = None
+         target_conf = min(1.0, blob.mass * 8.0) if blob.seen else 0.0
+         bearing = None
+         if blob.seen and blob.centroid is not None:
+@@ -161,8 +169,8 @@
+             stale=stale,
+             duplicate=duplicate,
+         )
+-        self._prev_gray = gray
+-        self._prev_id = frame.frame_id
++        self._prev_gray = None if stale else gray
++        self._prev_id = None if stale else frame.frame_id
+         return Observation(
+             timestamp_ns=now_ns,
+             frame_id=frame.frame_id,

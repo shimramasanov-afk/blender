@@ -1,0 +1,186 @@
+{
+  "ok": true,
+  "farm": false,
+  "combat": false,
+  "live": true,
+  "hid_sent": true,
+  "aborted": null,
+  "window_id": 16372,
+  "target_pid": 68342,
+  "slot_a": [
+    60,
+    140,
+    400,
+    520
+  ],
+  "slot_b": [
+    1592,
+    650,
+    342,
+    307
+  ],
+  "clean_free": true,
+  "after_tab_occupied": true,
+  "after_escape_free": true,
+  "escapes_sent": 2,
+  "tab_sent": true,
+  "open_windows": [],
+  "steps": [
+    {
+      "step": "layout_start",
+      "t_ms": 456.368458,
+      "farm": false
+    },
+    {
+      "step": "clean",
+      "t_ms": 765.946792,
+      "slot_b_occupied": false
+    },
+    {
+      "step": "Tab",
+      "t_ms": 766.081042,
+      "hid_sent": true
+    },
+    {
+      "step": "after_tab",
+      "t_ms": 1173.261333,
+      "slot_b_occupied": true
+    },
+    {
+      "step": "Escape",
+      "t_ms": 1173.3965,
+      "hid_sent": true
+    },
+    {
+      "step": "after_escape",
+      "t_ms": 1330.116792,
+      "slot_b_occupied": false
+    },
+    {
+      "step": "SUCCESS",
+      "t_ms": 1330.156458,
+      "reason": null
+    }
+  ],
+  "events": [
+    {
+      "timestamp_ns": 363322844384791,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 363322973736791,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 363323132168166,
+      "action_type": "HoldKey",
+      "key": "tab",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 363323132236416,
+      "action_type": "HoldKey",
+      "key": "tab",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 363323539483250,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 40,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 363323539545791,
+      "action_type": "HoldKey",
+      "key": "escape",
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "cgevent",
+      "dry_run": false,
+      "hid_sent": true
+    },
+    {
+      "timestamp_ns": 363323696354583,
+      "action_type": "release_all",
+      "key": null,
+      "button": null,
+      "hold_duration_ms": 0,
+      "target_window": "parallels-desktop",
+      "dx": null,
+      "dy": null,
+      "x": null,
+      "y": null,
+      "accepted": true,
+      "reason": "release_all",
+      "dry_run": false,
+      "hid_sent": false
+    }
+  ],
+  "stuck_keys_count": 0,
+  "watchdog_tripped": false,
+  "session_ms": 1330.244333,
+  "total_session_ms": 1330.244333,
+  "final_hp": null,
+  "out": "docs/evidence/live-s4/layout-slots-validation.json",
+  "elapsed_time_sec": 1.330244333
+}

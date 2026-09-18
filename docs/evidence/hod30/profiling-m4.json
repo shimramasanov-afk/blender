@@ -1,0 +1,303 @@
+{
+  "suite": "circuit-profile-v0",
+  "host": {
+    "python": "3.14.7",
+    "machine": "arm64",
+    "mac_ver": "27.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "numpy": "2.5.3",
+    "accel": "numpy_cpu"
+  },
+  "hypothesis": "At B=1, MPS does not beat CPU for current sizes; SNN infer p95 already < 2 ms. H6 stays rejected unless both fail.",
+  "reject_cpu_if": "Synced MPS p50 < CPU p50 at N=64 B=1 AND controller infer p95 >= 2 ms.",
+  "optimized": false,
+  "transfer_claim": false,
+  "rows": [
+    {
+      "controller": "baseline_v1",
+      "ticks": 100,
+      "warmup": 10,
+      "scenario": "open_goal:training:v0:s0",
+      "stages": {
+        "t_encode": {
+          "p50_ms": 3.803667,
+          "p95_ms": 4.1725173,
+          "p99_ms": 4.517373000000001,
+          "max_ms": 4.682208,
+          "p50_us": 3803.667,
+          "p95_us": 4172.5173,
+          "n": 100
+        },
+        "t_infer": {
+          "p50_ms": 0.0459995,
+          "p95_ms": 0.060006849999999994,
+          "p99_ms": 0.06219042000000004,
+          "max_ms": 0.068667,
+          "p50_us": 45.9995,
+          "p95_us": 60.00684999999999,
+          "n": 100
+        },
+        "t_tactical": {
+          "p50_ms": 0.007124999999999999,
+          "p95_ms": 0.011562849999999998,
+          "p99_ms": 0.013175170000000005,
+          "max_ms": 0.014083,
+          "p50_us": 7.124999999999999,
+          "p95_us": 11.562849999999997,
+          "n": 100
+        },
+        "t_decode": {
+          "p50_ms": 0.012833,
+          "p95_ms": 0.0187604,
+          "p99_ms": 0.02225166,
+          "max_ms": 0.022416,
+          "p50_us": 12.833,
+          "p95_us": 18.7604,
+          "n": 100
+        },
+        "t_tick": {
+          "p50_ms": 7.4989170000000005,
+          "p95_ms": 7.9600684500000005,
+          "p99_ms": 8.160313,
+          "max_ms": 8.405833,
+          "p50_us": 7498.917,
+          "p95_us": 7960.068450000001,
+          "n": 100
+        }
+      },
+      "hid_sent": false
+    },
+    {
+      "controller": "gru_v1",
+      "ticks": 100,
+      "warmup": 10,
+      "scenario": "open_goal:training:v0:s0",
+      "stages": {
+        "t_encode": {
+          "p50_ms": 3.8196875,
+          "p95_ms": 4.2933393,
+          "p99_ms": 4.88374259,
+          "max_ms": 4.936667,
+          "p50_us": 3819.6875,
+          "p95_us": 4293.339300000001,
+          "n": 100
+        },
+        "t_infer": {
+          "p50_ms": 0.06706300000000001,
+          "p95_ms": 0.09628540000000001,
+          "p99_ms": 0.10371867000000003,
+          "max_ms": 0.108834,
+          "p50_us": 67.06300000000002,
+          "p95_us": 96.28540000000001,
+          "n": 100
+        },
+        "t_tactical": {
+          "p50_ms": 0.0071665,
+          "p95_ms": 0.0118351,
+          "p99_ms": 0.013963420000000002,
+          "max_ms": 0.0145,
+          "p50_us": 7.1665,
+          "p95_us": 11.835099999999999,
+          "n": 100
+        },
+        "t_decode": {
+          "p50_ms": 0.006,
+          "p95_ms": 0.0076292,
+          "p99_ms": 0.00858383,
+          "max_ms": 0.008666,
+          "p50_us": 6.0,
+          "p95_us": 7.6292,
+          "n": 100
+        },
+        "t_tick": {
+          "p50_ms": 7.458083500000001,
+          "p95_ms": 8.08704025,
+          "p99_ms": 8.491009580000004,
+          "max_ms": 9.222083,
+          "p50_us": 7458.083500000001,
+          "p95_us": 8087.040249999999,
+          "n": 100
+        }
+      },
+      "hid_sent": false
+    },
+    {
+      "controller": "snn_v1",
+      "ticks": 100,
+      "warmup": 10,
+      "scenario": "open_goal:training:v0:s0",
+      "stages": {
+        "t_encode": {
+          "p50_ms": 3.8453334999999997,
+          "p95_ms": 4.639037199999999,
+          "p99_ms": 4.730882500000001,
+          "max_ms": 4.9915,
+          "p50_us": 3845.3334999999997,
+          "p95_us": 4639.037199999999,
+          "n": 100
+        },
+        "t_infer": {
+          "p50_ms": 1.6360000000000001,
+          "p95_ms": 1.6965545,
+          "p99_ms": 1.7348399100000003,
+          "max_ms": 1.801458,
+          "p50_us": 1636.0000000000002,
+          "p95_us": 1696.5545,
+          "n": 100
+        },
+        "t_tactical": {
+          "p50_ms": 0.008396,
+          "p95_ms": 0.011052399999999999,
+          "p99_ms": 0.011341910000000005,
+          "max_ms": 0.012125,
+          "p50_us": 8.396,
+          "p95_us": 11.052399999999999,
+          "n": 100
+        },
+        "t_decode": {
+          "p50_ms": 0.012938,
+          "p95_ms": 0.016817000000000002,
+          "p99_ms": 0.017642080000000008,
+          "max_ms": 0.019333,
+          "p50_us": 12.938,
+          "p95_us": 16.817000000000004,
+          "n": 100
+        },
+        "t_tick": {
+          "p50_ms": 9.120771,
+          "p95_ms": 9.710980600000001,
+          "p99_ms": 10.082983330000003,
+          "max_ms": 10.873333,
+          "p50_us": 9120.770999999999,
+          "p95_us": 9710.9806,
+          "n": 100
+        }
+      },
+      "hid_sent": false
+    }
+  ],
+  "mps_audit": {
+    "torch": {
+      "installed": true,
+      "mps_available": true,
+      "version": "2.14.0",
+      "reason": "ok"
+    },
+    "ops": [
+      {
+        "op": "sparse_mm",
+        "ok": true,
+        "error": null
+      },
+      {
+        "op": "gather",
+        "ok": true,
+        "error": null
+      },
+      {
+        "op": "scatter",
+        "ok": true,
+        "error": null
+      }
+    ],
+    "gemm": {
+      "ran": true,
+      "reason": "ok",
+      "crossover_batch": {
+        "n64": null,
+        "n128": 64
+      },
+      "rows": [
+        {
+          "n": 64,
+          "batch": 1,
+          "cpu_p50_ms": 0.002875,
+          "mps_p50_ms": 0.1556045,
+          "faster": "cpu",
+          "synced": true,
+          "steps": 200
+        },
+        {
+          "n": 64,
+          "batch": 8,
+          "cpu_p50_ms": 0.011333,
+          "mps_p50_ms": 0.117416,
+          "faster": "cpu",
+          "synced": true,
+          "steps": 200
+        },
+        {
+          "n": 64,
+          "batch": 32,
+          "cpu_p50_ms": 0.0397915,
+          "mps_p50_ms": 0.1119375,
+          "faster": "cpu",
+          "synced": true,
+          "steps": 200
+        },
+        {
+          "n": 64,
+          "batch": 64,
+          "cpu_p50_ms": 0.0783545,
+          "mps_p50_ms": 0.12954149999999998,
+          "faster": "cpu",
+          "synced": true,
+          "steps": 200
+        },
+        {
+          "n": 128,
+          "batch": 1,
+          "cpu_p50_ms": 0.00575,
+          "mps_p50_ms": 0.1136045,
+          "faster": "cpu",
+          "synced": true,
+          "steps": 200
+        },
+        {
+          "n": 128,
+          "batch": 8,
+          "cpu_p50_ms": 0.033375,
+          "mps_p50_ms": 0.1151665,
+          "faster": "cpu",
+          "synced": true,
+          "steps": 200
+        },
+        {
+          "n": 128,
+          "batch": 32,
+          "cpu_p50_ms": 0.12925,
+          "mps_p50_ms": 0.1429165,
+          "faster": "cpu",
+          "synced": true,
+          "steps": 200
+        },
+        {
+          "n": 128,
+          "batch": 64,
+          "cpu_p50_ms": 0.258125,
+          "mps_p50_ms": 0.1505835,
+          "faster": "mps",
+          "synced": true,
+          "steps": 200
+        }
+      ]
+    },
+    "numerics": {
+      "ran": true,
+      "ok": true,
+      "max_abs": 0.0,
+      "rtol": 0.0001,
+      "finite": true,
+      "reason": "ok"
+    },
+    "mps_faster_at_n64_b1": false,
+    "keep_numpy_cpu": true,
+    "optimized": false
+  },
+  "verdict": {
+    "keep_numpy_cpu": true,
+    "h6_accepted": false,
+    "reason": "H6 needs infer p95 CPU >= 2 ms and MPS p50 < CPU p50 at B=1. measured infer_p95_snn=1.697 mps_faster_n64_b1=False",
+    "optimized": false
+  }
+}

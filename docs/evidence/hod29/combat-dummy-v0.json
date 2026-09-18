@@ -1,0 +1,750 @@
+{
+  "scenario": "combat_dummy_v0",
+  "outcome": "combat_success",
+  "ticks": 80,
+  "damage_total": 100.0,
+  "dummy_killed": true,
+  "phases": [
+    "SEEK",
+    "TARGET",
+    "APPROACH",
+    "ATTACK",
+    "VICTORY"
+  ],
+  "hid_sent": false,
+  "dry_run": true,
+  "privileged_in_observation": false,
+  "transfer_claim": false,
+  "ticks_log": [
+    {
+      "tick": 1,
+      "phase": "SEEK",
+      "distance_m": 9.0,
+      "dummy_hp": 100.0,
+      "targeted": false,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 2,
+      "phase": "SEEK",
+      "distance_m": 9.0,
+      "dummy_hp": 100.0,
+      "targeted": false,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 3,
+      "phase": "SEEK",
+      "distance_m": 9.0,
+      "dummy_hp": 100.0,
+      "targeted": false,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 4,
+      "phase": "SEEK",
+      "distance_m": 9.0,
+      "dummy_hp": 100.0,
+      "targeted": false,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 5,
+      "phase": "TARGET",
+      "distance_m": 9.0,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 6,
+      "phase": "APPROACH",
+      "distance_m": 8.901,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 7,
+      "phase": "APPROACH",
+      "distance_m": 8.8,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 8,
+      "phase": "APPROACH",
+      "distance_m": 8.699,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 9,
+      "phase": "APPROACH",
+      "distance_m": 8.597,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 10,
+      "phase": "APPROACH",
+      "distance_m": 8.496,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 11,
+      "phase": "APPROACH",
+      "distance_m": 8.394,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 12,
+      "phase": "APPROACH",
+      "distance_m": 8.292,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 13,
+      "phase": "APPROACH",
+      "distance_m": 8.19,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 14,
+      "phase": "APPROACH",
+      "distance_m": 8.088,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 15,
+      "phase": "APPROACH",
+      "distance_m": 7.986,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 16,
+      "phase": "APPROACH",
+      "distance_m": 7.884,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 17,
+      "phase": "APPROACH",
+      "distance_m": 7.782,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 18,
+      "phase": "APPROACH",
+      "distance_m": 7.68,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 19,
+      "phase": "APPROACH",
+      "distance_m": 7.578,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 20,
+      "phase": "APPROACH",
+      "distance_m": 7.476,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 21,
+      "phase": "APPROACH",
+      "distance_m": 7.374,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 22,
+      "phase": "APPROACH",
+      "distance_m": 7.272,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 23,
+      "phase": "APPROACH",
+      "distance_m": 7.17,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 24,
+      "phase": "APPROACH",
+      "distance_m": 7.068,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 25,
+      "phase": "APPROACH",
+      "distance_m": 6.966,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 26,
+      "phase": "APPROACH",
+      "distance_m": 6.864,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 27,
+      "phase": "APPROACH",
+      "distance_m": 6.762,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 28,
+      "phase": "APPROACH",
+      "distance_m": 6.66,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 29,
+      "phase": "APPROACH",
+      "distance_m": 6.558,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 30,
+      "phase": "APPROACH",
+      "distance_m": 6.456,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 31,
+      "phase": "APPROACH",
+      "distance_m": 6.354,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 32,
+      "phase": "APPROACH",
+      "distance_m": 6.252,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 33,
+      "phase": "APPROACH",
+      "distance_m": 6.15,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 34,
+      "phase": "APPROACH",
+      "distance_m": 6.048,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 35,
+      "phase": "APPROACH",
+      "distance_m": 5.946,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 36,
+      "phase": "APPROACH",
+      "distance_m": 5.844,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 37,
+      "phase": "APPROACH",
+      "distance_m": 5.742,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 38,
+      "phase": "APPROACH",
+      "distance_m": 5.64,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 39,
+      "phase": "APPROACH",
+      "distance_m": 5.538,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 40,
+      "phase": "APPROACH",
+      "distance_m": 5.436,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 41,
+      "phase": "APPROACH",
+      "distance_m": 5.334,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 42,
+      "phase": "APPROACH",
+      "distance_m": 5.232,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 43,
+      "phase": "APPROACH",
+      "distance_m": 5.13,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 44,
+      "phase": "APPROACH",
+      "distance_m": 5.028,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 45,
+      "phase": "APPROACH",
+      "distance_m": 4.926,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 46,
+      "phase": "APPROACH",
+      "distance_m": 4.824,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 47,
+      "phase": "APPROACH",
+      "distance_m": 4.722,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 48,
+      "phase": "APPROACH",
+      "distance_m": 4.62,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 49,
+      "phase": "APPROACH",
+      "distance_m": 4.518,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 50,
+      "phase": "APPROACH",
+      "distance_m": 4.416,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 51,
+      "phase": "APPROACH",
+      "distance_m": 4.314,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 52,
+      "phase": "APPROACH",
+      "distance_m": 4.212,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 53,
+      "phase": "APPROACH",
+      "distance_m": 4.11,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 54,
+      "phase": "APPROACH",
+      "distance_m": 4.008,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 55,
+      "phase": "APPROACH",
+      "distance_m": 3.906,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 56,
+      "phase": "APPROACH",
+      "distance_m": 3.804,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 57,
+      "phase": "APPROACH",
+      "distance_m": 3.702,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 58,
+      "phase": "APPROACH",
+      "distance_m": 3.6,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 59,
+      "phase": "APPROACH",
+      "distance_m": 3.498,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 60,
+      "phase": "APPROACH",
+      "distance_m": 3.396,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 61,
+      "phase": "APPROACH",
+      "distance_m": 3.294,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 62,
+      "phase": "APPROACH",
+      "distance_m": 3.192,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 63,
+      "phase": "APPROACH",
+      "distance_m": 3.09,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 64,
+      "phase": "APPROACH",
+      "distance_m": 2.988,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 65,
+      "phase": "APPROACH",
+      "distance_m": 2.886,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 66,
+      "phase": "APPROACH",
+      "distance_m": 2.784,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 67,
+      "phase": "APPROACH",
+      "distance_m": 2.682,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 68,
+      "phase": "APPROACH",
+      "distance_m": 2.58,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 69,
+      "phase": "APPROACH",
+      "distance_m": 2.478,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 70,
+      "phase": "APPROACH",
+      "distance_m": 2.376,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 71,
+      "phase": "APPROACH",
+      "distance_m": 2.274,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 72,
+      "phase": "APPROACH",
+      "distance_m": 2.172,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 73,
+      "phase": "APPROACH",
+      "distance_m": 2.07,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 74,
+      "phase": "APPROACH",
+      "distance_m": 1.968,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 75,
+      "phase": "APPROACH",
+      "distance_m": 1.866,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 76,
+      "phase": "APPROACH",
+      "distance_m": 1.764,
+      "dummy_hp": 100.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "running"
+    },
+    {
+      "tick": 77,
+      "phase": "ATTACK",
+      "distance_m": 1.764,
+      "dummy_hp": 75.0,
+      "targeted": true,
+      "hit": true,
+      "outcome": "running"
+    },
+    {
+      "tick": 78,
+      "phase": "ATTACK",
+      "distance_m": 1.764,
+      "dummy_hp": 50.0,
+      "targeted": true,
+      "hit": true,
+      "outcome": "running"
+    },
+    {
+      "tick": 79,
+      "phase": "ATTACK",
+      "distance_m": 1.764,
+      "dummy_hp": 25.0,
+      "targeted": true,
+      "hit": true,
+      "outcome": "running"
+    },
+    {
+      "tick": 80,
+      "phase": "ATTACK",
+      "distance_m": 1.764,
+      "dummy_hp": 0.0,
+      "targeted": true,
+      "hit": true,
+      "outcome": "combat_success"
+    },
+    {
+      "tick": 80,
+      "phase": "VICTORY",
+      "distance_m": 1.764,
+      "dummy_hp": 0.0,
+      "targeted": true,
+      "hit": false,
+      "outcome": "combat_success"
+    }
+  ],
+  "dry_run_n": 89
+}

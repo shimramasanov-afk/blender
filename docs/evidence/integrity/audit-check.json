@@ -1,0 +1,295 @@
+{
+  "same_23_60": {
+    "claim": "baseline и memory показывают одинаковые 23/60",
+    "base": [
+      23,
+      60,
+      {
+        "success": 23,
+        "timeout": 16,
+        "stuck": 21
+      }
+    ],
+    "mem": [
+      23,
+      60,
+      {
+        "success": 23,
+        "timeout": 16,
+        "stuck": 21
+      }
+    ],
+    "confirmed": true
+  },
+  "episode_identity": {
+    "n_diff_success_ticks_outcome": 0,
+    "examples": [],
+    "same_ids": true
+  },
+  "recovery_never": {
+    "claim": "восстановление в каталоге ни разу не активировалось",
+    "recovery": {
+      "gt_stuck_windows": 0,
+      "detections": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "recall": null,
+      "precision": null,
+      "recoveries": 0,
+      "recovery_successes": 0,
+      "recovery_success_rate": null,
+      "recovery_time_p50": null,
+      "retraps": 0
+    },
+    "confirmed": true
+  },
+  "no_gt_windows": {
+    "claim": "GT-окон физической неподвижности нет",
+    "gt": 0,
+    "confirmed": true
+  },
+  "traps_all_success": {
+    "claim": "u_trap/dead_end решаются (успех 10/10, 0 столкновений)",
+    "success": 10,
+    "collisions": 0,
+    "ticks": [
+      [
+        "u_trap",
+        0,
+        78
+      ],
+      [
+        "u_trap",
+        1,
+        78
+      ],
+      [
+        "u_trap",
+        2,
+        79
+      ],
+      [
+        "u_trap",
+        3,
+        76
+      ],
+      [
+        "u_trap",
+        4,
+        82
+      ],
+      [
+        "dead_end",
+        0,
+        157
+      ],
+      [
+        "dead_end",
+        1,
+        157
+      ],
+      [
+        "dead_end",
+        2,
+        153
+      ],
+      [
+        "dead_end",
+        3,
+        183
+      ],
+      [
+        "dead_end",
+        4,
+        157
+      ]
+    ],
+    "confirmed": true,
+    "nuance": "успех да; «простой поворот к цели» — из раскладки старта лицом в торец и цели сзади, не из отдельного лога намерений в JSON"
+  },
+  "weak_or_hidden_target": {
+    "claim": "скрытая или слабая цель лишает политику направления",
+    "by_scene": {
+      "single_obstacle": {
+        "success": 0,
+        "mean_conf": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "miss": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "long_fence": {
+        "success": 0,
+        "mean_conf": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "miss": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "corridor": {
+        "success": 0,
+        "mean_conf": [
+          0.015,
+          0.018,
+          0.017,
+          0.018,
+          0.009
+        ],
+        "miss": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "weak_texture": {
+        "success": 0,
+        "mean_conf": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "miss": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "confirmed": true,
+    "nuance": "corridor имеет ненулевой bearing_err при miss=1 — пятно иногда есть, но ниже порога 0.12"
+  },
+  "narrow_gate": {
+    "claim": "narrow_gate проваливается даже при видимой цели",
+    "success": 0,
+    "miss": [
+      0.164,
+      0.068,
+      0.066,
+      0.042,
+      0.034
+    ],
+    "conf": [
+      0.129,
+      0.071,
+      0.125,
+      0.075,
+      0.109
+    ],
+    "collisions": [
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "causes": [
+      "control",
+      "control",
+      "control",
+      "control",
+      "control"
+    ],
+    "confirmed": true
+  },
+  "vanish_and_drops": {
+    "claim": "исчезновение цели и пропуски кадров разрушают удержание курса",
+    "vanish_success": 0,
+    "vanish_conf": [
+      0.008,
+      0.008,
+      0.008,
+      0.008,
+      0.009
+    ],
+    "vanish_net": [
+      0.54,
+      0.28,
+      0.29,
+      0.27,
+      0.82
+    ],
+    "latency_success": 0,
+    "latency_stale": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "latency_conf": [
+      0.072,
+      0.178,
+      0.067,
+      0.131,
+      0.075
+    ],
+    "confirmed": true
+  },
+  "two_stuck_defs": {
+    "claim": "определения stuck в оценщике и детекторе различаются",
+    "episode_outcome": "no_progress over 25 ticks of distance_to_goal (min > first-0.12) OR collisions>=6 and net<1",
+    "detector_gt": "cmd_forward>=0.2 AND pose move<0.025 AND dist>0.8 for >=8 ticks",
+    "confirmed": true
+  },
+  "two_lineages": {
+    "claim": "две несогласованные линейки сценариев",
+    "s0": "open_field, pursuit, occluded, memory_probe in l2_brain.config / SyntheticEnv / evaluate",
+    "nav": "SCENARIO_IDS in l2_brain.sim / baseline-eval",
+    "confirmed": true
+  },
+  "mock_other_encoder": {
+    "claim": "mock использует другой энкодер",
+    "mock": true,
+    "sck": true,
+    "nav_eval": true,
+    "confirmed": true
+  },
+  "h15_not_run": {
+    "claim": "польза оптического потока в замкнутом контуре не проверена",
+    "h15_text": "Сравнение ещё не гоняли",
+    "confirmed": true,
+    "nuance": "F13 bench отделяет поворот/подход на синтетике; это не замкнутый контур"
+  },
+  "recall_as_null": {
+    "claim_audit_implied": "recall должен быть N/A не нулём",
+    "artifact": {
+      "gt_stuck_windows": 0,
+      "detections": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "recall": null,
+      "precision": null,
+      "recoveries": 0,
+      "recovery_successes": 0,
+      "recovery_success_rate": null,
+      "recovery_time_p50": null,
+      "retraps": 0
+    },
+    "confirmed_partial": true,
+    "nuance": "recall/precision/success_rate уже null; recovery_time_p50 в файле null после правки сумматора"
+  }
+}
