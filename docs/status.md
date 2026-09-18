@@ -18,6 +18,7 @@ FSM явная. Один retry. Trace JSON. `agent-live --task guide-open-close`
 ```text
 TASK_LAYER_STATUS = UNIT-TESTED
 LIVE_VALIDATION = NO
+POST_TASK_LAYER_TESTS = 389 passed, 0 failed
 LiveRuntime execution path = LIVE-VALIDATED
 Long-horizon Agent/Task layer = NOT YET LIVE-VALIDATED
 ```
