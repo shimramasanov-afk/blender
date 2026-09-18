@@ -21,6 +21,8 @@ def test_parse_defaults_are_observe_only() -> None:
     assert args.live is False
     assert args.danger_confirmed is False
     assert args.skill is None
+    assert args.task is None
+    assert args.repeat == 1
     assert args.ticks == 8
 
 
@@ -50,6 +52,7 @@ def test_observe_injected_runtime_no_backend() -> None:
     code = run_agent_live(args, runtime=rt, printer=lines.append)
     assert code == 0
     assert "observe-only" in lines[0]
+    assert '"task": null' in lines[0]
     assert rt.backend is None
     assert rt.summary()["closed"] is True
 

@@ -1,7 +1,8 @@
 # Архитектура
 
-Снимок на 2026-09-18 (ADR-0079: NPC/spot оркеструют LiveRuntime;
-live этим слоем не доказан. ADR-0078: каркас).
+Снимок на 2026-09-18 (ADR-0085: Task layer v1 unit-only;
+ADR-0080: R1/R2 LiveRuntime live-validated. ADR-0079: NPC/spot
+оркеструют LiveRuntime. ADR-0078: каркас).
 Ранее 2026-09-17 (F64, ADR-0062). Источник истины — код в этом
 каталоге, воспроизводимые прогоны и `docs/`. Граф `graphify-out/` —
 ориентир, не прогон.
@@ -26,7 +27,8 @@ live этим слоем не доказан. ADR-0078: каркас).
 | Стенд S0 | `types.Observation` → `types.Action` | `ControlLoop` + `SyntheticEnv` | нет; `LiveClientEnv` / `LiveHIDActuator` бросают `NotImplementedError` |
 | Контур | `contracts.Frame` → `Observation` → `MotorIntent` → `Command` → `Effect` | `circuit.Circuit` | mock по умолчанию; `build_sck_circuit` берёт SCK и **mock** ввод |
 | Живой зонд | SCK `Frame` + `HUDParser` + CGEvent | `live.s4_probe`, `s4-npc-dialog`, `bench-h8`, `calibrate-*` | да, только с `--live --danger-confirmed`; не `Circuit.run` |
-| LiveRuntime | `PerceptionHub` → `WorldState` → один `Skill` → CGEvent | `live.runtime.LiveRuntime`; `s4-npc-dialog` / `s4-integrated-spot` оркеструют его | код+unit (358); live HID после миграции не доказан |
+| LiveRuntime | `PerceptionHub` → `WorldState` → один `Skill` → CGEvent | `live.runtime.LiveRuntime`; probes оркеструют его | R1/R2 LIVE-VALIDATED; не «agent LIVE-PROVEN» |
+| Task layer v1 | одна `Task` → Skills через Runtime | `live.tasks`; `GuideInteractionTask` | UNIT-TESTED; `LIVE_VALIDATION = NO` |
 
 Контроллер не захватывает экран, не читает пакеты, не жмёт клавиши и
 не знает раскладку HUD. Настройки игры — в
@@ -469,7 +471,7 @@ ratio ≥0.70; профиль не писали (`|dx|<50`). `SEARCH=80`.
 | `s4-integrated-spot` | L1 encoder + L2 FSM, до 10 фрагов; `--runtime-validation --kills 3` = R2, не F82; без фарма |
 | `s4-npc-dialog` | мирный зонд: `--via-chat /target` → F2-подбег → ЛКМ (0.50, 0.48), HTML только слева, обход меню; `--runtime-validation` = R1 один пункт, не F85; без фарма |
 | `layout-grid` / `layout-overlay` / `layout-slots` | PNG-снимок; живые рамки поверх Parallels (клики навылет); Tab/Escape слота Б после посадки. Сетка гостя 2560×1600: слот А `[60,140,400,520]`, слот Б `[2140,140,360,480]`; без фарма |
-| `agent-live` | `LiveRuntime`: по умолчанию observe-only (нет HID). Один `--skill` только с `--live --danger-confirmed`. Не фарм, не quest loop. Канон live-evidence — F82/F85 до миграции |
+| `agent-live` | `LiveRuntime`: по умолчанию observe-only. `--skill` или `--task guide-open-close` только с dual flags. `--repeat` 1…10. Не фарм, не quest. Канон live Runtime — R1/R2; Task live нет |
 | `combat-dry-run` / `spot-loop` | синтетический бой / спот |
 | `profile` / `doctor` | стадии тика и окружение |
 

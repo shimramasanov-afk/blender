@@ -40,11 +40,23 @@ CGEventInputBackend         (dual flags, F12, focus, watchdog)
 
 CLI probes остаются. После Prompt 6–7 `s4-npc-dialog` и
 `s4-integrated-spot` оркеструют `LiveRuntime`. `s4-probe` и
-`layout-slots` не мигрированы. Prompt 8 не начинали.
+`layout-slots` не мигрированы.
+
+Над Skills появился Task layer v1 (одна задача, без planner).
+
+```text
+Task
+ ↓
+Skill
+ ↓
+LiveRuntime
+ ↓
+Input backend
+```
 
 ## Migration status
 
-Остановлено после **Prompt 7.5** (R1/R2). Prompt 8 ещё не в этом checkpoint.
+Prompt 8 (код + unit) поверх checkpoint R1/R2. Live Task не гоняли.
 
 ```text
 PRE_TASK_LAYER_TESTS = 378 passed, 0 failed
@@ -65,7 +77,7 @@ Long-horizon Agent/Task layer = NOT YET LIVE-VALIDATED
 | P6 migrate NPC probe | да | CLI тот же; HID через `tap_hotkey` / `talk_click` / `open_npc_dialog` / `click_dialog_item` / `close_dialog` |
 | P7 migrate spot | да | FSM на месте; HID через `target_next` / `attack_target` / `loot_target` / `walk_pulse` / rotate / `u_turn` |
 | P7.5 live validation | да (код + R1/R2 JSON) | R1 PASS, R2 PASS по флагу; не LIVE-PROVEN на агента |
-| P8 GuideInteractionTask | **нет** | 7.5 по критерию закрыт; Prompt 8 только по отдельной команде |
+| P8 GuideInteractionTask | да (unit) | `TaskRunner` + `GuideInteractionTask`; HID только через Skill/Runtime. Live нет |
 
 **Что сейчас управляет живым персонажем:** FSM зондов + `LiveRuntime`.
 Канон **этой** серии — R1/R2 в `docs/evidence/live-agent-runtime/`.
@@ -84,5 +96,27 @@ src/l2_brain/live/perception.py
 src/l2_brain/live/runtime.py
 src/l2_brain/live/agent_cli.py
 src/l2_brain/live/skills/{base,result,dispatch,movement,targeting,ui,combat,npc,context,registry}.py
+src/l2_brain/live/tasks/{base,result,guide_interaction,runner}.py
 ```
+
+## Task layer v1
+
+```text
+TASK_LAYER_STATUS = UNIT-TESTED
+LIVE_VALIDATION = NO
+POST_TASK_LAYER_TESTS = 389 passed, 0 failed
+LiveRuntime execution path = LIVE-VALIDATED
+Long-horizon Agent/Task layer = NOT YET LIVE-VALIDATED
+```
+
+Не ярлык «agent LIVE-PROVEN». Не PASS в клиенте. R1/R2 JSON не
+переписывались. `agent-live` без `--task` остаётся observe-only.
+`--task guide-open-close --repeat N` (default 1, cap 10) — отдельный
+контур; live на этом шаге не запускали.
+
+`GuideInteractionTask`: найти гида по имени → `open_npc_dialog` →
+подтвердить `dialog_open` → `close_dialog` → подтвердить закрытие.
+Один retry после обычного fail Open (Escape / CloseDialog).
+`focus_lost` / `capture_lost` без recovery / F12 / runtime abort →
+`ABORTED`. SCK recovery остаётся в LiveRuntime.
 

@@ -40,4 +40,6 @@ SHA1 `be12db2b…`.
 ## Вердикт серии
 
 R1 PASS, R2 PASS по критерию `runtime_validation`.
-Не объявляем `LIVE-PROVEN` на весь агент. Prompt 8 нет.
+Не объявляем `LIVE-PROVEN` на весь агент.
+Task layer v1 есть в коде: `TASK_LAYER_STATUS = UNIT-TESTED`,
+`LIVE_VALIDATION = NO`. Канон R1/R2 не переписывался.

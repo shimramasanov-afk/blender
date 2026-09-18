@@ -3,6 +3,28 @@
 Обзор для решения «куда дальше»:
 [overview-2026-09-18.md](overview-2026-09-18.md).
 
+## Ход 96 — Task layer v1, без live — 2026-09-18
+
+Код и unit-тесты. Live HID не было. F82/F85/F86 и R1/R2 JSON
+не переписывали. Combat/HUD/loot не трогали.
+
+Появились `Task` / `TaskResult` / `TaskRunner` /
+`GuideInteractionTask`. Задача ходит только в публичный
+Skill/LiveRuntime API: `open_npc_dialog` + `close_dialog`.
+FSM явная. Один retry. Trace JSON. `agent-live --task guide-open-close`
+(`--repeat` default 1, cap 10). Без `--task` — observe-only.
+Старые `s4-npc-dialog` / `s4-integrated-spot` на месте.
+
+```text
+TASK_LAYER_STATUS = UNIT-TESTED
+LIVE_VALIDATION = NO
+LiveRuntime execution path = LIVE-VALIDATED
+Long-horizon Agent/Task layer = NOT YET LIVE-VALIDATED
+```
+
+Не «agent LIVE-PROVEN». Не PASS гида в клиенте. Следующая
+проверка (отдельная команда): GuideInteractionTask ×3 live.
+
 ## Ход 95 — увеличенный HUD + live R2 PASS — 2026-09-18
 
 Live HID был. F82/F85/F86 не переписывали. Prompt 8 нет.

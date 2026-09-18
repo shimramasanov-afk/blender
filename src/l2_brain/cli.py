@@ -271,15 +271,10 @@ def main(argv: list[str] | None = None) -> int:
         help="R1: один пункт гида через LiveRuntime, не обходит 6 пунктов, не F85",
     )
 
-    agent = sub.add_parser("agent-live", help="единый LiveRuntime: observe-only или один skill, без фарма")
-    agent.add_argument("--live", action="store_true")
-    agent.add_argument("--danger-confirmed", action="store_true")
-    agent.add_argument("--window-id", type=int, default=None)
-    agent.add_argument("--target-pid", type=int, default=None)
-    agent.add_argument("--profile", type=Path, default=Path("config/window_profiles/parallels_l2.json"))
-    agent.add_argument("--ticks", type=int, default=8)
-    agent.add_argument("--skill", choices=("target-next", "open-guide", "walk-pulse", "close-dialog"), default=None)
-    agent.add_argument("--npc-name", default="Newbie Guide")
+    agent = sub.add_parser("agent-live", help="единый LiveRuntime: observe-only, один skill или одна Task, без фарма")
+    from l2_brain.live.agent_cli import add_agent_live_arguments
+
+    add_agent_live_arguments(agent)
 
     args = parser.parse_args(argv)
     if args.cmd == "mock":

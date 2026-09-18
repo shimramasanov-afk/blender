@@ -6,6 +6,35 @@
 
 ---
 
+## ADR-0085 — Task layer v1 над Skills
+
+**Дата.** 2026-09-18  
+**Статус.** Принято (код + unit). Live Task не гоняли.
+
+**Контекст.** R1/R2 доказали путь LiveRuntime → Skill → HID.
+Долгоживущий слой задачи ещё не существовал. Planner/квесты/OCR
+на этом шаге запрещены.
+
+**Решение.**
+
+1. Пакет `l2_brain.live.tasks`: `TaskStatus`, `TaskResult`,
+   `TaskRunner` (одна задача), `GuideInteractionTask`.
+2. Цепочка только `Task → Skill → LiveRuntime → backend`.
+   Task не импортирует `CGEventInputBackend` / `GameAction`.
+3. Первый Task: открыть и закрыть диалог Newbie Guide.
+   Не меню, не accept quest, не combat skills.
+4. Один retry после обычного fail Open через CloseDialog.
+   Safety (`focus_lost`, `capture_lost` без recovery, F12,
+   exception) → `ABORTED`. SCK recovery не в Task.
+5. CLI: `agent-live --task guide-open-close --repeat N`
+   (1…10). Default без `--task` — observe-only.
+
+**Последствия.** `TASK_LAYER_STATUS = UNIT-TESTED`,
+`LIVE_VALIDATION = NO`. R1/R2 JSON не менялись.
+
+**Отвергли.** QuestTask, planner, GOAP, BT, OCR, live прогон
+в том же ходе, ярлык «agent LIVE-PROVEN».
+
 ## ADR-0084 — переразметка увеличенного StatusWnd
 
 **Дата.** 2026-09-18  
